@@ -686,7 +686,7 @@ var metricConfig = {
   "category": "Housing",
   "suffix": "%",
   "raw_label": "Units",
-  "title": "Subsidized Housing",
+  "title": "Housing Assistance – Development-Based",
   "type": "weighted"
  },
  "m61": {
@@ -694,7 +694,7 @@ var metricConfig = {
   "category": "Safety",
   "label": "Calls per 1,000 People",
   "raw_label": "Calls",
-  "title": "Calls for Animal Control",
+  "title": "Calls for Animal Care and Control",
   "decimals": 1,
   "type": "weighted"
  },
