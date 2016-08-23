@@ -1,4 +1,4 @@
-{
+let siteConfig = {
     "neighborhoodDescriptor": "NPA",
     "gaKey": "UA-48797957-1",
     "header": {
@@ -9,6 +9,7 @@
     },
     "description": "Exploring neighborhood character, economics, education, engagement, environment, health, housing, safety and transportation.",
     "qolembedURL": "http://mcmap.org/qol-embed/",
+    "qolreportURL": "http://mcmap.org/qol-report/",
     "menu": {
         "About": {
             "links": [
@@ -42,4 +43,6 @@
             ]
         }
     }
-}
+};
+
+module.exports = siteConfig;
