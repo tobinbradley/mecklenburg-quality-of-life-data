@@ -10,6 +10,7 @@ let siteConfig = {
     "description": "Exploring neighborhood character, economics, education, engagement, environment, health, housing, safety and transportation.",
     "qolembedURL": "http://mcmap.org/qol-embed/",
     "qolreportURL": "http://mcmap.org/qol-report/",
+    "qoldashboardURL": "http://mcmap.org/qol/",
     "menu": {
         "About": {
             "links": [
