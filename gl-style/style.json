@@ -2852,52 +2852,6 @@
             "source-layer": "admin"
         },
         {
-            "layout": {
-                "text-font": [
-                    "Open Sans Bold"
-                ],
-                "text-field": "{id}",
-                "text-size": {
-                    "base": 10,
-                    "stops": [
-                        [
-                            10,
-                            10
-                        ],
-                        [
-                            11,
-                            16
-                        ],
-                        [
-                            13,
-                            24
-                        ],
-                        [
-                            15,
-                            32
-                        ],
-                        [
-                            17,
-                            46
-                        ],
-                        [
-                            19,
-                            60
-                        ]
-                    ]
-                }
-            },
-            "minzoom": 10,
-            "type": "symbol",
-            "source": "neighborhoodLabels",
-            "id": "neighborhood_labels",
-            "paint": {
-                "text-color": "rgba(102,102,102,0.6)",
-                "text-halo-width": 1.5,
-                "text-halo-color": "rgba(255,255,255,0.7)"
-            }
-        },
-        {
             "interactive": true,
             "layout": {
                 "text-font": [
@@ -3247,7 +3201,6 @@
                         ]
                     ]
                 },
-                "symbol-spacing": 500,
                 "text-rotation-alignment": "viewport",
                 "icon-rotation-alignment": "viewport"
             },
@@ -3295,7 +3248,6 @@
             "filter": [
                 "in",
                 "type",
-                "hamlet",
                 "suburb",
                 "neighbourhood",
                 "island",
