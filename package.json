@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lower-csv": "for f in metric/*.csv; do sed -i -e 's/\\(.*\\)/\\L\\1/' $f ; done",
     "sort-csv": "for f in metric/*.csv; do sort -n -o $f $f ; done",
-    "clean": "export LC_NUMERIC=C && npm run lower-csv && npm run sort-csv"
+    "clean-csv": "export LC_NUMERIC=C && npm run lower-csv && npm run sort-csv"
   },
   "repository": {
     "type": "git",
