@@ -92,6 +92,8 @@ Each file contains definitions and instructions. For features that you don't wan
 
 The `/config/legacy` folder is for an earlier version of the project.
 
+You will also want to change the Mapbox GL JS `/gl-style/style.json` file to your own tiles, Mapbox, OSM2VectorTiles, or what have you.
+
 ### Tips and Gotchas
 
 #### CSV column case sensitivity
