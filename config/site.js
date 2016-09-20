@@ -1,3 +1,28 @@
+// __________________________________
+//  Site Configuration              |
+// ----------------------------------
+//        \   ^__^
+//         \  (oo)\_______
+//            (__)\       )\/\
+//                ||----w |
+//                ||     ||
+//
+//  Pretty self-explanatory, except for these:
+//
+//  qolembedURL     if you have a qol embed install, put the location here, otherwise set to null
+//  qolreportURL    if you have a qol report install, put the location here, otherwise set to null
+//  qoldashboardURL     if you have a qol dashboard install, put the location here, otherwise set to null
+//  contactForm     location of your contact form if you have one for the dashboard, otherwise null
+                    // POST arguments to the contact page will be:
+                    //     email : sender email,
+                    //     url: the current window location,
+                    //     agent: users's browser info,
+                    //     subject: "Whatever",
+                    //     to: email address(s) to send the feedback to,
+                    //     message: "I hate your website or whatever"
+//  contacts "tobin.bradley@gmail.com,qualityoflife@charlottenc.gov",
+//
+
 let siteConfig = {
     "neighborhoodDescriptor": "NPA",
     "gaKey": "UA-48797957-1",
@@ -8,6 +33,8 @@ let siteConfig = {
     "qolembedURL": "http://mcmap.org/qol-embed/",
     "qolreportURL": "http://mcmap.org/qol-report/",
     "qoldashboardURL": "http://mcmap.org/qol/",
+    "contactForm": "http://mcmap.org/utilities/feedback.php",
+    "contacts": "tobin.bradley@gmail.com,qualityoflife@charlottenc.gov",
     "links": [
         {
             "href": "http://qol.charmeck.org/",

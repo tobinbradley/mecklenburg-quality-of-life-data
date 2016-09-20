@@ -1,3 +1,15 @@
+// __________________________________
+//   Select Groups                  |
+// ----------------------------------
+//        \   ^__^
+//         \  (oo)\_______
+//            (__)\       )\/\
+//                ||----w |
+//                ||     ||
+//
+//  Use this to specify subgroups, with each group being an array of neighborhood id's
+//  Set selectGroups to null if you don't care about this.
+
 let selectGroups = {
     'Jurisdiction': {
         'Cornelius': [397, 398, 399, 404, 405, 409, 410, 411, 438, 448, 449, 458, 470, 471, 472, 474].map(String),
