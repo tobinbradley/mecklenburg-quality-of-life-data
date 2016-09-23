@@ -25,6 +25,7 @@
 
 let siteConfig = {
     "neighborhoodDescriptor": "NPA",
+    "neighborhoodDefinition": "Neighborhood Profile Areas (NPAs) are geographic areas used for the organization and presentation of data in the Quality of Life Study. The boundaries were developed with community input and are based on one or more Census block groups.",
     "gaKey": "UA-48797957-1",
     "keywords": "GIS,Mecklenburg County,parks,libraries,schools,environment,impervious surface,floodplain,zoning,assessment,tax,photos,government",
     "author": "Tobin Bradley",
