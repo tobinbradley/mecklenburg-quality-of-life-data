@@ -92,7 +92,7 @@ Each file contains definitions and instructions. For features that you don't wan
 
 The `/config/legacy` folder is for an earlier version of the project.
 
-You will also want to change the Mapbox GL JS `/gl-style/style.json` file to your own tiles, Mapbox, OSM2VectorTiles, or what have you.
+In particular, you will also want to change the Mapbox GL JS `/gl-style/style.json` pointer in `map.js` to your own tiles, Mapbox tiles, OSM2VectorTiles tiles, or what have you. The tiles we use don't cover much of the planet beyond our needs. The excellent [OSM-Liberty](https://github.com/lukasmartinelli/osm-liberty) is provided as a drop-in replacement.
 
 ### Tips and Gotchas
 
