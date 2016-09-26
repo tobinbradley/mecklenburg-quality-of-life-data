@@ -12,11 +12,13 @@ Mecklenburg County data for the Quality of Life Dashboard.
 
 This project requires [NodeJS](http://nodejs.org/).
 
-``` terminal
-git clone https://github.com/tobinbradley/mecklenburg-quality-of-life-data.git
+``` bash
+git clone https://github.com/tobinbradley/mecklenburg-quality-of-life-data.git data
+cd data
+npm install
 ```
 
-It isn't meant as a stand-alone repository, but rather to be used with the other Quality of Life projects. The project on its own doesn't do anything and there aren't any dependencies. There are a couple of data QC npm scripts you can see in `package.json`, but they only work on a 'nix command line.
+It isn't meant as a stand-alone repository, but rather to be used with the other Quality of Life projects.
 
 ## Customizing your Data
 
@@ -55,9 +57,15 @@ The file header is `id` and each year of data is expressed as `y_<year>`. No dat
 
 The type of data will decide the files required:
 
-*   `sum`: The data will be summed when multiple polygons are selected. This will require a `r<metric>.csv` file.
-*   `mean`: The data will be averaged when multiple polygons are selected. This will require a `n<metric>.csv` file.
-*   `weighted`: A weighted average will be calculated when multiple polygons are selected. This requires the raw data in `r<metric>.csv` and a denominator for weighting/calcuations in `d<metric>.csv`. r/d is each individual polygon value.
+*   `sum`: The data is summed when polygons are selected. This will require a `r<metric>.csv` file.
+*   `mean`: The data is averaged when polygons are selected. This will require a `n<metric>.csv` file.
+*   `weighted`: A weighted average is calculated when polygons are selected. This requires the raw data in `r<metric>.csv` and a denominator for weighting/calculations in `d<metric>.csv`. r/d is each individual polygon value.
+
+After creating your data files, run the test suite to make sure the basics check out.
+
+``` bash
+npm run test --silent
+```
 
 ### Creating your metadata
 
