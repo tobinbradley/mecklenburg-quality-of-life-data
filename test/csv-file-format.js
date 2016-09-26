@@ -4,7 +4,6 @@ var path = require("path");
 var _ = require("lodash");
 var csv = require("fast-csv");
 var geoJSON = require("../geography.geojson.json");
-var dataConfig = require("../config/data");
 
 
 // natural sort for mixed character and string
@@ -28,7 +27,7 @@ for (let i = 0; i < geoJSON.features.length; i++) {
 }
 geoids.sort(naturalCompare);
 
-// read through files
+// test csv files
 fs.readdir('metric', function(err, files) {
     files.forEach(function(file) {
         if (path.extname(file) === '.csv') {

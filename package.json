@@ -4,7 +4,7 @@
   "description": "data for the quality of life dashboard",
   "main": "index.js",
   "scripts": {
-    "test": "node ./test/*.js | tap-spec --silent",
+    "test": "tape ./test/*.js | tap-spec",
     "lower-csv": "for f in metric/*.csv; do sed -i -e 's/\\(.*\\)/\\L\\1/' $f ; done",
     "sort-csv": "for f in metric/*.csv; do sort -n -o $f $f ; done",
     "clean-csv": "export LC_NUMERIC=C && npm run lower-csv && npm run sort-csv"
