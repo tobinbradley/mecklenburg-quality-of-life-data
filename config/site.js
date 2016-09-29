@@ -20,6 +20,7 @@
                     //     subject: "Whatever",
                     //     to: email address(s) to send the feedback to,
                     //     message: "I hate your website or whatever"
+//  whatsnew        a list of recently updated metrics to put in a what's new box. set to null if you don't have anything.				
 //  contacts "tobin.bradley@gmail.com,qualityoflife@charlottenc.gov",
 //
 
@@ -36,6 +37,7 @@ let siteConfig = {
     "qoldashboardURL": "http://mcmap.org/qol/",
     "contactForm": "http://mcmap.org/utilities/feedback.php",
     "contacts": "tobin.bradley@gmail.com,qualityoflife@charlottenc.gov",
+    "whatsnew": ["2", "3", "4", "82"],
     "links": [
         {
             "href": "http://qol.charmeck.org/",
