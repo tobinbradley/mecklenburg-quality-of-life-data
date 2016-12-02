@@ -38,7 +38,7 @@ let siteConfig = {
     "qoldashboardURL": "http://mcmap.org/qol/",
     "contactForm": "http://mcmap.org/utilities/feedback.php",
     "contacts": "tobin.bradley@gmail.com,qualityoflife@charlottenc.gov",
-    "whatsnew": null,
+    "whatsnew": ["2", "12"],
     "links": [
         {
             "href": "http://qol.charmeck.org/",
