@@ -25,7 +25,8 @@
 
 
 let mapConfig = {
-    style: "./style/osm-mecklenburg.json",
+    //style: "./style/osm-mecklenburg.json",
+    style: "./style/positron-mecklenburg.json",
     zoomEmbed: 9.5,
     zoom: 9.3,
     centerEmbed: [-80.815,35.31],
