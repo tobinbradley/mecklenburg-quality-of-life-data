@@ -1,26 +1,6 @@
 {
   "version": 8,
-  "name": "Positron Mecklenburg",
-  "metadata": {
-    "mapbox:autocomposite": false,
-    "mapbox:type": "template",
-    "mapbox:groups": {
-      "b6371a3f2f5a9932464fa3867530a2e5": {
-        "name": "Transportation",
-        "collapsed": false
-      },
-      "a14c9607bc7954ba1df7205bf660433f": {
-        "name": "Boundaries"
-      },
-      "101da9f13b64a08fa4b6ac1168e89e5f": {
-        "name": "Places",
-        "collapsed": false
-      }
-    },
-    "openmaptiles:version": "3.x",
-    "openmaptiles:mapbox:owner": "openmaptiles",
-    "openmaptiles:mapbox:source:url": "mapbox://openmaptiles.4qljc88t"
-  },
+  "name": "Positron Mecklenburg",  
   "center": [
     -80.84, 35.26
   ],
@@ -28,24 +8,14 @@
   "bearing": 0,
   "pitch": 0,
   "sources": {
-	  "openmaptiles": {
+	"meckbase": {
           "type": "vector",
           "tiles": [
             "http://tiles.mcmap.org/united_states_of_america_v4/{z}/{x}/{y}.pbf"
           ],
           "maxzoom": 14,
           "minzoom": 0
-        },
-    "satellite": {
-			"type": "raster",
-			"tiles": [
-                "https://a.tiles.mapbox.com/v4/digitalglobe.nal0g75k/{z}/{x}/{y}.jpg80?access_token=pk.eyJ1IjoiZGlnaXRhbGdsb2JlIiwiYSI6ImNpbjBkMDhwczA4bWF2cWx1bTIyY2V6aDMifQ.T9gIIn2WngTeTS6J_OU9jw",
-                "https://b.tiles.mapbox.com/v4/digitalglobe.nal0g75k/{z}/{x}/{y}.jpg80?access_token=pk.eyJ1IjoiZGlnaXRhbGdsb2JlIiwiYSI6ImNpbjBkMDhwczA4bWF2cWx1bTIyY2V6aDMifQ.T9gIIn2WngTeTS6J_OU9jw",
-                "https://c.tiles.mapbox.com/v4/digitalglobe.nal0g75k/{z}/{x}/{y}.jpg80?access_token=pk.eyJ1IjoiZGlnaXRhbGdsb2JlIiwiYSI6ImNpbjBkMDhwczA4bWF2cWx1bTIyY2V6aDMifQ.T9gIIn2WngTeTS6J_OU9jw"
-            ],
-			"tileSize": 256,
-            "maxzoom": 22
-		},
+        },    
         "parcels": {
           "type": "vector",
           "tiles": [
@@ -69,7 +39,7 @@
     {
       "id": "water",
       "type": "fill",
-      "source": "openmaptiles",
+      "source": "meckbase",
       "source-layer": "water",
       "filter": [
         "==",
@@ -100,7 +70,7 @@
     {
       "id": "landcover_ice_shelf",
       "type": "fill",
-      "source": "openmaptiles",
+      "source": "meckbase",
       "source-layer": "landcover",
       "maxzoom": 8,
       "filter": [
@@ -127,7 +97,7 @@
     {
       "id": "landcover_glacier",
       "type": "fill",
-      "source": "openmaptiles",
+      "source": "meckbase",
       "source-layer": "landcover",
       "maxzoom": 8,
       "filter": [
@@ -166,7 +136,7 @@
     {
       "id": "landuse_residential",
       "type": "fill",
-      "source": "openmaptiles",
+      "source": "meckbase",
       "source-layer": "landuse",
       "maxzoom": 16,
       "filter": [
@@ -205,7 +175,7 @@
     {
       "id": "landcover_wood",
       "type": "fill",
-      "source": "openmaptiles",
+      "source": "meckbase",
       "source-layer": "landcover",
       "minzoom": 10,
       "filter": [
@@ -244,7 +214,7 @@
     {
       "id": "park",
       "type": "fill",
-      "source": "openmaptiles",
+      "source": "meckbase",
       "source-layer": "park",
       "filter": [
         "==",
@@ -261,7 +231,7 @@
     {
       "id": "waterway",
       "type": "line",
-      "source": "openmaptiles",
+      "source": "meckbase",
       "source-layer": "waterway",
       "filter": [
         "==",
@@ -278,7 +248,7 @@
     {
       "id": "water_name",
       "type": "symbol",
-      "source": "openmaptiles",
+      "source": "meckbase",
       "source-layer": "water_name",
       "filter": [
         "==",
@@ -325,7 +295,7 @@
       "metadata": {
         "mapbox:group": "b6371a3f2f5a9932464fa3867530a2e5"
       },
-      "source": "openmaptiles",
+      "source": "meckbase",
       "source-layer": "transportation",
       "minzoom": 6,
       "filter": [
@@ -382,7 +352,7 @@
       "metadata": {
         "mapbox:group": "b6371a3f2f5a9932464fa3867530a2e5"
       },
-      "source": "openmaptiles",
+      "source": "meckbase",
       "source-layer": "transportation",
       "minzoom": 6,
       "filter": [
@@ -438,7 +408,7 @@
       "metadata": {
         "mapbox:group": "b6371a3f2f5a9932464fa3867530a2e5"
       },
-      "source": "openmaptiles",
+      "source": "meckbase",
       "source-layer": "transportation",
       "filter": [
         "all",
@@ -482,7 +452,7 @@
       "metadata": {
         "mapbox:group": "b6371a3f2f5a9932464fa3867530a2e5"
       },
-      "source": "openmaptiles",
+      "source": "meckbase",
       "source-layer": "transportation",
       "minzoom": 8,
       "filter": [
@@ -529,7 +499,7 @@
       "metadata": {
         "mapbox:group": "b6371a3f2f5a9932464fa3867530a2e5"
       },
-      "source": "openmaptiles",
+      "source": "meckbase",
       "source-layer": "transportation",
       "minzoom": 11,
       "filter": [
@@ -580,7 +550,7 @@
       "metadata": {
         "mapbox:group": "b6371a3f2f5a9932464fa3867530a2e5"
       },
-      "source": "openmaptiles",
+      "source": "meckbase",
       "source-layer": "transportation",
       "minzoom": 11,
       "filter": [
@@ -627,7 +597,7 @@
       "metadata": {
         "mapbox:group": "b6371a3f2f5a9932464fa3867530a2e5"
       },
-      "source": "openmaptiles",
+      "source": "meckbase",
       "source-layer": "transportation",
       "maxzoom": 11,
       "filter": [
@@ -662,7 +632,7 @@
       "metadata": {
         "mapbox:group": "b6371a3f2f5a9932464fa3867530a2e5"
       },
-      "source": "openmaptiles",
+      "source": "meckbase",
       "source-layer": "transportation",
       "minzoom": 6,
       "filter": [
@@ -724,7 +694,7 @@
       "metadata": {
         "mapbox:group": "b6371a3f2f5a9932464fa3867530a2e5"
       },
-      "source": "openmaptiles",
+      "source": "meckbase",
       "source-layer": "transportation",
       "minzoom": 6,
       "filter": [
@@ -793,7 +763,7 @@
       "metadata": {
         "mapbox:group": "b6371a3f2f5a9932464fa3867530a2e5"
       },
-      "source": "openmaptiles",
+      "source": "meckbase",
       "source-layer": "transportation",
       "maxzoom": 6,
       "filter": [
@@ -837,7 +807,7 @@
       "metadata": {
         "mapbox:group": "b6371a3f2f5a9932464fa3867530a2e5"
       },
-      "source": "openmaptiles",
+      "source": "meckbase",
       "source-layer": "transportation",
       "minzoom": 16,
       "filter": [
@@ -875,7 +845,7 @@
       "metadata": {
         "mapbox:group": "b6371a3f2f5a9932464fa3867530a2e5"
       },
-      "source": "openmaptiles",
+      "source": "meckbase",
       "source-layer": "transportation",
       "minzoom": 16,
       "filter": [
@@ -914,7 +884,7 @@
       "metadata": {
         "mapbox:group": "b6371a3f2f5a9932464fa3867530a2e5"
       },
-      "source": "openmaptiles",
+      "source": "meckbase",
       "source-layer": "transportation",
       "minzoom": 13,
       "filter": [
@@ -964,7 +934,7 @@
       "metadata": {
         "mapbox:group": "b6371a3f2f5a9932464fa3867530a2e5"
       },
-      "source": "openmaptiles",
+      "source": "meckbase",
       "source-layer": "transportation",
       "minzoom": 13,
       "filter": [
@@ -1018,7 +988,7 @@
       "metadata": {
         "mapbox:group": "b6371a3f2f5a9932464fa3867530a2e5"
       },
-      "source": "openmaptiles",
+      "source": "meckbase",
       "source-layer": "transportation_name",
       "minzoom": 10,
       "filter": [
@@ -1065,7 +1035,7 @@
       "metadata": {
         "mapbox:group": "b6371a3f2f5a9932464fa3867530a2e5"
       },
-      "source": "openmaptiles",
+      "source": "meckbase",
       "source-layer": "transportation_name",
       "filter": [
         "all",
@@ -1109,7 +1079,7 @@
       "metadata": {
         "mapbox:group": "a14c9607bc7954ba1df7205bf660433f"
       },
-      "source": "openmaptiles",
+      "source": "meckbase",
       "source-layer": "boundary",
       "filter": [
         "==",
@@ -1150,7 +1120,7 @@
       "metadata": {
         "mapbox:group": "a14c9607bc7954ba1df7205bf660433f"
       },
-      "source": "openmaptiles",
+      "source": "meckbase",
       "source-layer": "boundary",
       "filter": [
         "==",
@@ -1192,14 +1162,58 @@
         "line-opacity": 1
       }
     },
-    
+    {
+        "id": "place_other",
+        "type": "symbol",
+        "metadata": {
+            "mapbox:group": "101da9f13b64a08fa4b6ac1168e89e5f"
+        },
+        "source": "openmaptiles",
+        "source-layer": "place",
+        "maxzoom": 14,
+        "filter": [
+            "all",
+            [
+            "!in",
+            "class",
+            "city",
+            "suburb",
+            "town",
+            "village"
+            ],
+            [
+            "==",
+            "$type",
+            "Point"
+            ]
+        ],
+        "layout": {
+            "text-size": 10,
+            "text-transform": "uppercase",
+            "text-font": "Roboto Regular",
+            "text-justify": "center",
+            "visibility": "visible",
+            "text-offset": [
+            0.5,
+            0
+            ],
+            "text-anchor": "center",
+            "text-field": "{name_en}"
+        },
+        "paint": {
+            "text-color": "rgb(117, 129, 145)",
+            "text-halo-color": "rgb(242,243,240)",
+            "text-halo-width": 1,
+            "text-halo-blur": 1
+        }
+        },
     {
       "id": "place_suburb",
       "type": "symbol",
       "metadata": {
         "mapbox:group": "101da9f13b64a08fa4b6ac1168e89e5f"
       },
-      "source": "openmaptiles",
+      "source": "meckbase",
       "source-layer": "place",
       "maxzoom": 15,
       "filter": [
@@ -1243,7 +1257,7 @@
       "metadata": {
         "mapbox:group": "101da9f13b64a08fa4b6ac1168e89e5f"
       },
-      "source": "openmaptiles",
+      "source": "meckbase",
       "source-layer": "place",
       "maxzoom": 14,
       "minzoom": 12,
@@ -1290,7 +1304,7 @@
       "metadata": {
         "mapbox:group": "101da9f13b64a08fa4b6ac1168e89e5f"
       },
-      "source": "openmaptiles",
+      "source": "meckbase",
       "source-layer": "place",
       "minzoom": 10,
       "maxzoom": 15,
@@ -1362,7 +1376,7 @@
       "metadata": {
         "mapbox:group": "101da9f13b64a08fa4b6ac1168e89e5f"
       },
-      "source": "openmaptiles",
+      "source": "meckbase",
       "source-layer": "place",
       "maxzoom": 14,
       "filter": [
@@ -1446,7 +1460,7 @@
       "metadata": {
         "mapbox:group": "101da9f13b64a08fa4b6ac1168e89e5f"
       },
-      "source": "openmaptiles",
+      "source": "meckbase",
       "source-layer": "place",
       "maxzoom": 12,
       "filter": [
@@ -1525,7 +1539,7 @@
       "metadata": {
         "mapbox:group": "101da9f13b64a08fa4b6ac1168e89e5f"
       },
-      "source": "openmaptiles",
+      "source": "meckbase",
       "source-layer": "place",
       "maxzoom": 12,
       "filter": [
@@ -1609,7 +1623,7 @@
       "metadata": {
         "mapbox:group": "101da9f13b64a08fa4b6ac1168e89e5f"
       },
-      "source": "openmaptiles",
+      "source": "meckbase",
       "source-layer": "place",
       "maxzoom": 12,
       "filter": [
@@ -1647,7 +1661,7 @@
       "metadata": {
         "mapbox:group": "101da9f13b64a08fa4b6ac1168e89e5f"
       },
-      "source": "openmaptiles",
+      "source": "meckbase",
       "source-layer": "place",
       "maxzoom": 8,
       "filter": [
@@ -1716,7 +1730,7 @@
       "metadata": {
         "mapbox:group": "101da9f13b64a08fa4b6ac1168e89e5f"
       },
-      "source": "openmaptiles",
+      "source": "meckbase",
       "source-layer": "place",
       "maxzoom": 6,
       "filter": [
