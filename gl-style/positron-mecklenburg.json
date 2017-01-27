@@ -1168,7 +1168,7 @@
         "metadata": {
             "mapbox:group": "101da9f13b64a08fa4b6ac1168e89e5f"
         },
-        "source": "openmaptiles",
+        "source": "meckbase",
         "source-layer": "place",
         "maxzoom": 14,
         "filter": [
@@ -1190,7 +1190,7 @@
         "layout": {
             "text-size": 10,
             "text-transform": "uppercase",
-            "text-font": "Roboto Regular",
+            "text-font": ["Roboto Regular"],
             "text-justify": "center",
             "visibility": "visible",
             "text-offset": [
