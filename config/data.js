@@ -30,7 +30,7 @@ let dataConfig = {
         "title": "Age of Residents",
         "type": "weighted",
         "world_val": {
-            "y_2014": 34.00
+            "y_2015": 35
         }
     },
     "m1": {
@@ -160,7 +160,7 @@ let dataConfig = {
         "title": "Household Income",
         "type": "weighted",
         "world_val": {
-            "y_2014": 56472
+            "y_2015": 56854
         }
     },
     "m75": {
@@ -311,14 +311,6 @@ let dataConfig = {
         "suffix": "%",
         "raw_label": "Miles",
         "title": "Adopt-a-Stream Participation",
-        "type": "weighted"
-    },
-    "m71": {
-        "metric": "71",
-        "category": "Environment",
-        "suffix": "%",
-        "raw_label": "Miles",
-        "title": "Adopt-a-Street Participation",
         "type": "weighted"
     },
     "m10": {
@@ -539,7 +531,7 @@ let dataConfig = {
         "title": "Rental Costs",
         "type": "weighted",
         "world_val": {
-            "y_2014": 913
+            "y_2015": 938
         }
     },
     "m53": {
