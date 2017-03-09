@@ -11,7 +11,7 @@
 	"meckbase": {
           "type": "vector",
           "tiles": [
-            "http://tiles.mcmap.org/united_states_of_america_v4/{z}/{x}/{y}.pbf"
+            "https://tiles.mcmap.org/united_states_of_america_v4/{z}/{x}/{y}.pbf"
           ],
           "maxzoom": 14,
           "minzoom": 0
@@ -19,8 +19,7 @@
         "parcels": {
           "type": "vector",
           "tiles": [
-            "http://maps.co.mecklenburg.nc.us/tiles/parcels_and_buildings/{z}/{x}/{y}.pbf",
-            "http://tiles.mcmap.org/parcels_and_buildings/{z}/{x}/{y}.pbf"
+            "https://tiles.mcmap.org/parcels_and_buildings/{z}/{x}/{y}.pbf"
           ],
           "maxzoom": 14,
           "minzoom": 14
