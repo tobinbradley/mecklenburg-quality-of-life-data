@@ -8,7 +8,7 @@
         "title": "Quality of Life Explorer"
     },
     "description": "Exploring neighborhood character, economics, education, engagement, environment, health, housing, safety and transportation.",
-    "qolembedURL": "http://mcmap.org/qol-embed/",
+    "qolembedURL": "https://mcmap.org/qol-embed/",
     "menu": {
         "About": {
             "links": [
