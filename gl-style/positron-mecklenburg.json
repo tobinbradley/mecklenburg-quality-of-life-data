@@ -11,7 +11,7 @@
 	"meckbase": {
           "type": "vector",
           "tiles": [
-            "https://tiles.mcmap.org/united_states_of_america_v4/{z}/{x}/{y}.pbf"
+            "https://tiles.mcmap.org/osm/{z}/{x}/{y}.pbf"
           ],
           "maxzoom": 14,
           "minzoom": 0
