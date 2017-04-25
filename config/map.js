@@ -30,7 +30,7 @@ let mapConfig = {
     zoom: 9.3,
     centerEmbed: [-80.815,35.31],
     center: [-80.84, 35.26],
-    maxBounds: [[-83.285, 33.180],[-78.255, 37.384]],
+    maxBounds: [[-82.641, 34.115],[-79.008, 36.762]],
     minZoom: 8,
     preserveDrawingBuffer: navigator.userAgent.toLowerCase().indexOf('firefox') > -1,  // fix for Firefox print
     neighborhoodsSelectedBefore: 'water_label',
