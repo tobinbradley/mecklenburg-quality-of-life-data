@@ -551,7 +551,7 @@ let dataConfig = {
     type: 'weighted'
   },
   m83: {
-    metric: '69',
+    metric: '83',
     category: 'Housing',
     label: 'Demos per 1,000 units',
     raw_label: 'demolitions',
