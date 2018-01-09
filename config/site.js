@@ -42,25 +42,46 @@ let siteConfig = {
   qoldashboardURL: 'https://mcmap.org/qol/',
   contactForm: 'https://mcmap.org/utilities/feedback.php',
   contacts: 'tobin.bradley@gmail.com,qualityoflife@charlottenc.gov',
-  whatsnew: ['2', '12'],
+  whatsnew: [
+    '67',
+    '71',
+    '82',
+    '7',
+    '6',
+    '42',
+    '53',
+    '83',
+    '30',
+    '5',
+    '73',
+    '9',
+    '8',
+    '19',
+    '41',
+    '11',
+    '4',
+    '35',
+    '64',
+    '63'
+  ],
   links: [
     {
       href: 'http://charlottenc.gov/HNS/CE/CommunityInfo/Pages/QOL.aspx',
-      text: 'About',
+      text: 'About'
     },
     {
       href: 'downloads/qol-data.zip',
-      text: 'Download Data',
+      text: 'Download Data'
     },
     {
       href: 'http://maps.co.mecklenburg.nc.us/openmapping/',
-      text: 'Mecklenburg County Open Mapping',
+      text: 'Mecklenburg County Open Mapping'
     },
     {
       href: 'http://clt.charlotte.opendata.arcgis.com/',
-      text: 'City of Charlotte Open Data Portal',
-    },
-  ],
+      text: 'City of Charlotte Open Data Portal'
+    }
+  ]
 };
 
 module.exports = siteConfig;
