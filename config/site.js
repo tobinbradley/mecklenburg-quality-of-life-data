@@ -29,12 +29,12 @@ let siteConfig = {
   neighborhoodDescriptor: 'NPA',
   neighborhoodDefinition:
     'Neighborhood Profile Areas (NPAs) are geographic areas used for the organization and presentation of data in the Quality of Life Study. The boundaries were developed with community input and are based on one or more Census block groups.',
-  gaKey: 'UA-48797957-1',
+  gaKey: '',
   keywords:
     'GIS,Mecklenburg County,parks,libraries,schools,environment,impervious surface,floodplain,zoning,assessment,tax,photos,government',
   author: 'Tobin Bradley',
   title: 'Quality of Life Explorer',
-  jurisdiction: 'Charlotte/Mecklenburg',
+  jurisdiction: 'Durham',
   description:
     'Exploring neighborhood character, economics, education, engagement, environment, health, housing, safety and transportation.',
   qolembedURL: 'https://mcmap.org/qol-embed/',
@@ -43,26 +43,6 @@ let siteConfig = {
   contactForm: 'https://mcmap.org/utilities/feedback.php',
   contacts: 'tobin.bradley@gmail.com,qualityoflife@charlottenc.gov',
   whatsnew: [
-    '67',
-    '71',
-    '82',
-    '7',
-    '6',
-    '42',
-    '53',
-    '83',
-    '30',
-    '5',
-    '73',
-    '9',
-    '8',
-    '19',
-    '41',
-    '11',
-    '4',
-    '35',
-    '64',
-    '63'
   ],
   links: [
     {
@@ -81,7 +61,21 @@ let siteConfig = {
       href: 'http://clt.charlotte.opendata.arcgis.com/',
       text: 'City of Charlotte Open Data Portal'
     }
-  ]
+  ],
+  geographies: [
+      {
+        id: 'tract',
+        label: 'Census Tracts',
+      },
+      {
+        id: 'blockgroup',
+        label: 'Census Blockgroups',
+      },
+      {
+        id: 'neighborhood',
+        label: 'Census Neighborhoods',
+      },
+  ],
 };
 
 module.exports = siteConfig;
