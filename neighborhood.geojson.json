@@ -3,8 +3,7 @@
     "features": [
         {
             "type": "Feature",
-            "id": "Abercromby",
-            "properties": {},
+            "properties": { "id": "Abercromby" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -47,8 +46,7 @@
         },
         {
             "type": "Feature",
-            "id": "Abron Drive",
-            "properties": {},
+            "properties": { "id": "Abron Drive" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -79,8 +77,7 @@
         },
         {
             "type": "Feature",
-            "id": "Albright",
-            "properties": {},
+            "properties": { "id": "Albright" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -151,8 +148,7 @@
         },
         {
             "type": "Feature",
-            "id": "Amberlynn Valley",
-            "properties": {},
+            "properties": { "id": "Amberlynn Valley" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -199,8 +195,7 @@
         },
         {
             "type": "Feature",
-            "id": "American Tobacco Campus",
-            "properties": {},
+            "properties": { "id": "American Tobacco Campus" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -243,8 +238,7 @@
         },
         {
             "type": "Feature",
-            "id": "American Village",
-            "properties": {},
+            "properties": { "id": "American Village" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -363,8 +357,7 @@
         },
         {
             "type": "Feature",
-            "id": "Anderson St. / Wrightwood Park",
-            "properties": {},
+            "properties": { "id": "Anderson St. / Wrightwood Park" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -517,8 +510,7 @@
         },
         {
             "type": "Feature",
-            "id": "Archer Woods",
-            "properties": {},
+            "properties": { "id": "Archer Woods" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -589,8 +581,7 @@
         },
         {
             "type": "Feature",
-            "id": "Arrowhead",
-            "properties": {},
+            "properties": { "id": "Arrowhead" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -697,8 +688,7 @@
         },
         {
             "type": "Feature",
-            "id": "Artisan at Brightleaf",
-            "properties": {},
+            "properties": { "id": "Artisan at Brightleaf" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -749,8 +739,7 @@
         },
         {
             "type": "Feature",
-            "id": "Ashley Forest",
-            "properties": {},
+            "properties": { "id": "Ashley Forest" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -805,8 +794,7 @@
         },
         {
             "type": "Feature",
-            "id": "Ashton Hall",
-            "properties": {},
+            "properties": { "id": "Ashton Hall" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -949,8 +937,7 @@
         },
         {
             "type": "Feature",
-            "id": "Auburn Hills",
-            "properties": {},
+            "properties": { "id": "Auburn Hills" },
             "geometry": {
                 "type": "MultiPolygon",
                 "coordinates": [
@@ -1023,8 +1010,7 @@
         },
         {
             "type": "Feature",
-            "id": "Auburn Square",
-            "properties": {},
+            "properties": { "id": "Auburn Square" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -1071,8 +1057,7 @@
         },
         {
             "type": "Feature",
-            "id": "Auburn Park",
-            "properties": {},
+            "properties": { "id": "Auburn Park" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -1111,8 +1096,7 @@
         },
         {
             "type": "Feature",
-            "id": "Audubon Park",
-            "properties": {},
+            "properties": { "id": "Audubon Park" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -1167,8 +1151,7 @@
         },
         {
             "type": "Feature",
-            "id": "Bahama",
-            "properties": {},
+            "properties": { "id": "Bahama" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -1239,8 +1222,7 @@
         },
         {
             "type": "Feature",
-            "id": "Barclay to Sandlewood",
-            "properties": {},
+            "properties": { "id": "Barclay to Sandlewood" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -1319,8 +1301,7 @@
         },
         {
             "type": "Feature",
-            "id": "Bennet Place",
-            "properties": {},
+            "properties": { "id": "Bennet Place" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -1355,8 +1336,7 @@
         },
         {
             "type": "Feature",
-            "id": "Belcrest",
-            "properties": {},
+            "properties": { "id": "Belcrest" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -1403,8 +1383,7 @@
         },
         {
             "type": "Feature",
-            "id": "Bluffs of the Eno",
-            "properties": {},
+            "properties": { "id": "Bluffs of the Eno" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -1439,8 +1418,7 @@
         },
         {
             "type": "Feature",
-            "id": "Bon Air Avenue",
-            "properties": {},
+            "properties": { "id": "Bon Air Avenue" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -1479,8 +1457,7 @@
         },
         {
             "type": "Feature",
-            "id": "Bradbury Glen",
-            "properties": {},
+            "properties": { "id": "Bradbury Glen" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -1519,8 +1496,7 @@
         },
         {
             "type": "Feature",
-            "id": "Bradbury Trace",
-            "properties": {},
+            "properties": { "id": "Bradbury Trace" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -1551,8 +1527,7 @@
         },
         {
             "type": "Feature",
-            "id": "Bragtown",
-            "properties": {},
+            "properties": { "id": "Bragtown" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -1763,8 +1738,7 @@
         },
         {
             "type": "Feature",
-            "id": "Brandon Ridge",
-            "properties": {},
+            "properties": { "id": "Brandon Ridge" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -1803,8 +1777,7 @@
         },
         {
             "type": "Feature",
-            "id": "Brightleaf at the Park",
-            "properties": {},
+            "properties": { "id": "Brightleaf at the Park" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -1943,8 +1916,7 @@
         },
         {
             "type": "Feature",
-            "id": "Brookstown",
-            "properties": {},
+            "properties": { "id": "Brookstown" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -1975,8 +1947,7 @@
         },
         {
             "type": "Feature",
-            "id": "Buck Crossing",
-            "properties": {},
+            "properties": { "id": "Buck Crossing" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -2011,8 +1982,7 @@
         },
         {
             "type": "Feature",
-            "id": "Cameron Woods",
-            "properties": {},
+            "properties": { "id": "Cameron Woods" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -2055,8 +2025,7 @@
         },
         {
             "type": "Feature",
-            "id": "Cardinal Lake",
-            "properties": {},
+            "properties": { "id": "Cardinal Lake" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -2147,8 +2116,7 @@
         },
         {
             "type": "Feature",
-            "id": "Carillon Forest",
-            "properties": {},
+            "properties": { "id": "Carillon Forest" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -2187,8 +2155,7 @@
         },
         {
             "type": "Feature",
-            "id": "Central Park",
-            "properties": {},
+            "properties": { "id": "Central Park" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -2259,8 +2226,7 @@
         },
         {
             "type": "Feature",
-            "id": "Chancellor's Ridge",
-            "properties": {},
+            "properties": { "id": "Chancellor's Ridge" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -2323,8 +2289,7 @@
         },
         {
             "type": "Feature",
-            "id": "Chapel Hill Road",
-            "properties": {},
+            "properties": { "id": "Chapel Hill Road" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -2387,8 +2352,7 @@
         },
         {
             "type": "Feature",
-            "id": "Chelsea Meadows",
-            "properties": {},
+            "properties": { "id": "Chelsea Meadows" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -2443,8 +2407,7 @@
         },
         {
             "type": "Feature",
-            "id": "Cleveland-Holloway",
-            "properties": {},
+            "properties": { "id": "Cleveland-Holloway" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -2531,8 +2494,7 @@
         },
         {
             "type": "Feature",
-            "id": "Colchester",
-            "properties": {},
+            "properties": { "id": "Colchester" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -2567,8 +2529,7 @@
         },
         {
             "type": "Feature",
-            "id": "Cole Mill Road",
-            "properties": {},
+            "properties": { "id": "Cole Mill Road" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -2911,8 +2872,7 @@
         },
         {
             "type": "Feature",
-            "id": "Coles Pond",
-            "properties": {},
+            "properties": { "id": "Coles Pond" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -2963,8 +2923,7 @@
         },
         {
             "type": "Feature",
-            "id": "College View",
-            "properties": {},
+            "properties": { "id": "College View" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -3123,8 +3082,7 @@
         },
         {
             "type": "Feature",
-            "id": "Colonial Village",
-            "properties": {},
+            "properties": { "id": "Colonial Village" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -3251,8 +3209,7 @@
         },
         {
             "type": "Feature",
-            "id": "Colony Park",
-            "properties": {},
+            "properties": { "id": "Colony Park" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -3311,8 +3268,7 @@
         },
         {
             "type": "Feature",
-            "id": "Colony Woods",
-            "properties": {},
+            "properties": { "id": "Colony Woods" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -3367,8 +3323,7 @@
         },
         {
             "type": "Feature",
-            "id": "Colvard Farms",
-            "properties": {},
+            "properties": { "id": "Colvard Farms" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -3427,8 +3382,7 @@
         },
         {
             "type": "Feature",
-            "id": "Copper Creek",
-            "properties": {},
+            "properties": { "id": "Copper Creek" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -3475,8 +3429,7 @@
         },
         {
             "type": "Feature",
-            "id": "Country Club Heights",
-            "properties": {},
+            "properties": { "id": "Country Club Heights" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -3539,8 +3492,7 @@
         },
         {
             "type": "Feature",
-            "id": "Cranford Road",
-            "properties": {},
+            "properties": { "id": "Cranford Road" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -3595,8 +3547,7 @@
         },
         {
             "type": "Feature",
-            "id": "Crest Street",
-            "properties": {},
+            "properties": { "id": "Crest Street" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -3647,8 +3598,7 @@
         },
         {
             "type": "Feature",
-            "id": "Croasdaile",
-            "properties": {},
+            "properties": { "id": "Croasdaile" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -3747,8 +3697,7 @@
         },
         {
             "type": "Feature",
-            "id": "Croasdaile Farm",
-            "properties": {},
+            "properties": { "id": "Croasdaile Farm" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -3903,8 +3852,7 @@
         },
         {
             "type": "Feature",
-            "id": "Croasdaile Village",
-            "properties": {},
+            "properties": { "id": "Croasdaile Village" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -3971,8 +3919,7 @@
         },
         {
             "type": "Feature",
-            "id": "Crooked Creek",
-            "properties": {},
+            "properties": { "id": "Crooked Creek" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -4031,8 +3978,7 @@
         },
         {
             "type": "Feature",
-            "id": "Cross Timbers",
-            "properties": {},
+            "properties": { "id": "Cross Timbers" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -4071,8 +4017,7 @@
         },
         {
             "type": "Feature",
-            "id": "Crown Point",
-            "properties": {},
+            "properties": { "id": "Crown Point" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -4127,8 +4072,7 @@
         },
         {
             "type": "Feature",
-            "id": "Darby Glen",
-            "properties": {},
+            "properties": { "id": "Darby Glen" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -4171,8 +4115,7 @@
         },
         {
             "type": "Feature",
-            "id": "Deer Forest",
-            "properties": {},
+            "properties": { "id": "Deer Forest" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -4259,8 +4202,7 @@
         },
         {
             "type": "Feature",
-            "id": "Dixon Road Area",
-            "properties": {},
+            "properties": { "id": "Dixon Road Area" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -4367,8 +4309,7 @@
         },
         {
             "type": "Feature",
-            "id": "Downing Creek",
-            "properties": {},
+            "properties": { "id": "Downing Creek" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -4459,8 +4400,7 @@
         },
         {
             "type": "Feature",
-            "id": "Downtown",
-            "properties": {},
+            "properties": { "id": "Downtown" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -4615,8 +4555,7 @@
         },
         {
             "type": "Feature",
-            "id": "Duke East Campus",
-            "properties": {},
+            "properties": { "id": "Duke East Campus" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -4679,8 +4618,7 @@
         },
         {
             "type": "Feature",
-            "id": "Duke Forest",
-            "properties": {},
+            "properties": { "id": "Duke Forest" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -4791,8 +4729,7 @@
         },
         {
             "type": "Feature",
-            "id": "Duke Homestead",
-            "properties": {},
+            "properties": { "id": "Duke Homestead" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -4875,8 +4812,7 @@
         },
         {
             "type": "Feature",
-            "id": "Duke Manor Apartments",
-            "properties": {},
+            "properties": { "id": "Duke Manor Apartments" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -4935,8 +4871,7 @@
         },
         {
             "type": "Feature",
-            "id": "Duke Park",
-            "properties": {},
+            "properties": { "id": "Duke Park" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -5039,8 +4974,7 @@
         },
         {
             "type": "Feature",
-            "id": "Duke West Campus",
-            "properties": {},
+            "properties": { "id": "Duke West Campus" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -5231,8 +5165,7 @@
         },
         {
             "type": "Feature",
-            "id": "Eagle's Pointe",
-            "properties": {},
+            "properties": { "id": "Eagle's Pointe" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -5279,8 +5212,7 @@
         },
         {
             "type": "Feature",
-            "id": "Eastway Village",
-            "properties": {},
+            "properties": { "id": "Eastway Village" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -5311,8 +5243,7 @@
         },
         {
             "type": "Feature",
-            "id": "Eastwood Park",
-            "properties": {},
+            "properties": { "id": "Eastwood Park" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -5351,8 +5282,7 @@
         },
         {
             "type": "Feature",
-            "id": "Edgemont",
-            "properties": {},
+            "properties": { "id": "Edgemont" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -5419,8 +5349,7 @@
         },
         {
             "type": "Feature",
-            "id": "Elm Grove",
-            "properties": {},
+            "properties": { "id": "Elm Grove" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -5479,8 +5408,7 @@
         },
         {
             "type": "Feature",
-            "id": "Emorywood Estates",
-            "properties": {},
+            "properties": { "id": "Emorywood Estates" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -5527,8 +5455,7 @@
         },
         {
             "type": "Feature",
-            "id": "Eno Commons",
-            "properties": {},
+            "properties": { "id": "Eno Commons" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -5563,8 +5490,7 @@
         },
         {
             "type": "Feature",
-            "id": "Eno Trace",
-            "properties": {},
+            "properties": { "id": "Eno Trace" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -5643,8 +5569,7 @@
         },
         {
             "type": "Feature",
-            "id": "Everwood",
-            "properties": {},
+            "properties": { "id": "Everwood" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -5679,8 +5604,7 @@
         },
         {
             "type": "Feature",
-            "id": "Fairfield",
-            "properties": {},
+            "properties": { "id": "Fairfield" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -5755,8 +5679,7 @@
         },
         {
             "type": "Feature",
-            "id": "Falconbridge",
-            "properties": {},
+            "properties": { "id": "Falconbridge" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -5839,8 +5762,7 @@
         },
         {
             "type": "Feature",
-            "id": "Fieldstone by the Eno",
-            "properties": {},
+            "properties": { "id": "Fieldstone by the Eno" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -5927,8 +5849,7 @@
         },
         {
             "type": "Feature",
-            "id": "Five Oaks",
-            "properties": {},
+            "properties": { "id": "Five Oaks" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -6003,8 +5924,7 @@
         },
         {
             "type": "Feature",
-            "id": "Five Oaks 4100",
-            "properties": {},
+            "properties": { "id": "Five Oaks 4100" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -6043,8 +5963,7 @@
         },
         {
             "type": "Feature",
-            "id": "Folkstone",
-            "properties": {},
+            "properties": { "id": "Folkstone" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -6087,8 +6006,7 @@
         },
         {
             "type": "Feature",
-            "id": "Forest Acres",
-            "properties": {},
+            "properties": { "id": "Forest Acres" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -6147,8 +6065,7 @@
         },
         {
             "type": "Feature",
-            "id": "Forest Hills",
-            "properties": {},
+            "properties": { "id": "Forest Hills" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -6271,8 +6188,7 @@
         },
         {
             "type": "Feature",
-            "id": "Forest Oaks",
-            "properties": {},
+            "properties": { "id": "Forest Oaks" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -6307,8 +6223,7 @@
         },
         {
             "type": "Feature",
-            "id": "Fortune's Ridge",
-            "properties": {},
+            "properties": { "id": "Fortune's Ridge" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -6403,8 +6318,7 @@
         },
         {
             "type": "Feature",
-            "id": "Fox Run",
-            "properties": {},
+            "properties": { "id": "Fox Run" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -6471,8 +6385,7 @@
         },
         {
             "type": "Feature",
-            "id": "Garret Farms - Porchlight / Hartley",
-            "properties": {},
+            "properties": { "id": "Garret Farms - Porchlight / Hartley" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -6507,8 +6420,7 @@
         },
         {
             "type": "Feature",
-            "id": "Gatewood Forest",
-            "properties": {},
+            "properties": { "id": "Gatewood Forest" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -6559,8 +6471,7 @@
         },
         {
             "type": "Feature",
-            "id": "Glennstone",
-            "properties": {},
+            "properties": { "id": "Glennstone" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -6651,8 +6562,7 @@
         },
         {
             "type": "Feature",
-            "id": "Golden Belt",
-            "properties": {},
+            "properties": { "id": "Golden Belt" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -6703,8 +6613,7 @@
         },
         {
             "type": "Feature",
-            "id": "Grande Park",
-            "properties": {},
+            "properties": { "id": "Grande Park" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -6759,8 +6668,7 @@
         },
         {
             "type": "Feature",
-            "id": "Green Mill",
-            "properties": {},
+            "properties": { "id": "Green Mill" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -6803,8 +6711,7 @@
         },
         {
             "type": "Feature",
-            "id": "Grove Park",
-            "properties": {},
+            "properties": { "id": "Grove Park" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -6947,8 +6854,7 @@
         },
         {
             "type": "Feature",
-            "id": "Heather Glen",
-            "properties": {},
+            "properties": { "id": "Heather Glen" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -7039,8 +6945,7 @@
         },
         {
             "type": "Feature",
-            "id": "Highgate",
-            "properties": {},
+            "properties": { "id": "Highgate" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -7091,8 +6996,7 @@
         },
         {
             "type": "Feature",
-            "id": "Hillandale Commons",
-            "properties": {},
+            "properties": { "id": "Hillandale Commons" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -7131,8 +7035,7 @@
         },
         {
             "type": "Feature",
-            "id": "Holston Meadows",
-            "properties": {},
+            "properties": { "id": "Holston Meadows" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -7167,8 +7070,7 @@
         },
         {
             "type": "Feature",
-            "id": "Homeplace I",
-            "properties": {},
+            "properties": { "id": "Homeplace I" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -7203,8 +7105,7 @@
         },
         {
             "type": "Feature",
-            "id": "Homeplace II",
-            "properties": {},
+            "properties": { "id": "Homeplace II" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -7247,8 +7148,7 @@
         },
         {
             "type": "Feature",
-            "id": "Hope Valley",
-            "properties": {},
+            "properties": { "id": "Hope Valley" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -7447,8 +7347,7 @@
         },
         {
             "type": "Feature",
-            "id": "Hope Valley Downs",
-            "properties": {},
+            "properties": { "id": "Hope Valley Downs" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -7487,8 +7386,7 @@
         },
         {
             "type": "Feature",
-            "id": "Hope Valley Farms",
-            "properties": {},
+            "properties": { "id": "Hope Valley Farms" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -7611,8 +7509,7 @@
         },
         {
             "type": "Feature",
-            "id": "Hope Valley Farms North",
-            "properties": {},
+            "properties": { "id": "Hope Valley Farms North" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -7715,8 +7612,7 @@
         },
         {
             "type": "Feature",
-            "id": "Hope Valley Forest",
-            "properties": {},
+            "properties": { "id": "Hope Valley Forest" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -7787,8 +7683,7 @@
         },
         {
             "type": "Feature",
-            "id": "Hope Valley Green",
-            "properties": {},
+            "properties": { "id": "Hope Valley Green" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -7839,8 +7734,7 @@
         },
         {
             "type": "Feature",
-            "id": "Hope Valley North",
-            "properties": {},
+            "properties": { "id": "Hope Valley North" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -7899,8 +7793,7 @@
         },
         {
             "type": "Feature",
-            "id": "Horton Hills",
-            "properties": {},
+            "properties": { "id": "Horton Hills" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -7963,8 +7856,7 @@
         },
         {
             "type": "Feature",
-            "id": "Huckleberry Heights",
-            "properties": {},
+            "properties": { "id": "Huckleberry Heights" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -8027,8 +7919,7 @@
         },
         {
             "type": "Feature",
-            "id": "Huntington Ridge",
-            "properties": {},
+            "properties": { "id": "Huntington Ridge" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -8059,8 +7950,7 @@
         },
         {
             "type": "Feature",
-            "id": "Inverness Drive",
-            "properties": {},
+            "properties": { "id": "Inverness Drive" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -8123,8 +8013,7 @@
         },
         {
             "type": "Feature",
-            "id": "Knollwood",
-            "properties": {},
+            "properties": { "id": "Knollwood" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -8187,8 +8076,7 @@
         },
         {
             "type": "Feature",
-            "id": "Lake Park",
-            "properties": {},
+            "properties": { "id": "Lake Park" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -8259,8 +8147,7 @@
         },
         {
             "type": "Feature",
-            "id": "Lakehurst",
-            "properties": {},
+            "properties": { "id": "Lakehurst" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -8335,8 +8222,7 @@
         },
         {
             "type": "Feature",
-            "id": "Lakewood Park",
-            "properties": {},
+            "properties": { "id": "Lakewood Park" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -8383,8 +8269,7 @@
         },
         {
             "type": "Feature",
-            "id": "Landon Farms",
-            "properties": {},
+            "properties": { "id": "Landon Farms" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -8439,8 +8324,7 @@
         },
         {
             "type": "Feature",
-            "id": "Latta Woods",
-            "properties": {},
+            "properties": { "id": "Latta Woods" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -8483,8 +8367,7 @@
         },
         {
             "type": "Feature",
-            "id": "Lattamoor",
-            "properties": {},
+            "properties": { "id": "Lattamoor" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -8535,8 +8418,7 @@
         },
         {
             "type": "Feature",
-            "id": "Lochaven Hills",
-            "properties": {},
+            "properties": { "id": "Lochaven Hills" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -8619,8 +8501,7 @@
         },
         {
             "type": "Feature",
-            "id": "Lochn'ora",
-            "properties": {},
+            "properties": { "id": "Lochn'ora" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -8687,8 +8568,7 @@
         },
         {
             "type": "Feature",
-            "id": "Lochside",
-            "properties": {},
+            "properties": { "id": "Lochside" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -8751,8 +8631,7 @@
         },
         {
             "type": "Feature",
-            "id": "Long Meadow",
-            "properties": {},
+            "properties": { "id": "Long Meadow" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -8811,8 +8690,7 @@
         },
         {
             "type": "Feature",
-            "id": "Lyon Park",
-            "properties": {},
+            "properties": { "id": "Lyon Park" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -8859,8 +8737,7 @@
         },
         {
             "type": "Feature",
-            "id": "Marbry Landing",
-            "properties": {},
+            "properties": { "id": "Marbry Landing" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -8923,8 +8800,7 @@
         },
         {
             "type": "Feature",
-            "id": "Bent Creek / Woodberry Forest",
-            "properties": {},
+            "properties": { "id": "Bent Creek / Woodberry Forest" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -9003,8 +8879,7 @@
         },
         {
             "type": "Feature",
-            "id": "Meadows of Pagehurst",
-            "properties": {},
+            "properties": { "id": "Meadows of Pagehurst" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -9039,8 +8914,7 @@
         },
         {
             "type": "Feature",
-            "id": "Merrick Moore",
-            "properties": {},
+            "properties": { "id": "Merrick Moore" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -9099,8 +8973,7 @@
         },
         {
             "type": "Feature",
-            "id": "Milan Woods",
-            "properties": {},
+            "properties": { "id": "Milan Woods" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -9151,8 +9024,7 @@
         },
         {
             "type": "Feature",
-            "id": "Morehead Hill",
-            "properties": {},
+            "properties": { "id": "Morehead Hill" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -9259,8 +9131,7 @@
         },
         {
             "type": "Feature",
-            "id": "Newhall Village",
-            "properties": {},
+            "properties": { "id": "Newhall Village" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -9291,8 +9162,7 @@
         },
         {
             "type": "Feature",
-            "id": "Myers Park/Beechgrove",
-            "properties": {},
+            "properties": { "id": "Myers Park/Beechgrove" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -9351,8 +9221,7 @@
         },
         {
             "type": "Feature",
-            "id": "Nancy Rhodes Creek",
-            "properties": {},
+            "properties": { "id": "Nancy Rhodes Creek" },
             "geometry": {
                 "type": "MultiPolygon",
                 "coordinates": [
@@ -9449,8 +9318,7 @@
         },
         {
             "type": "Feature",
-            "id": "North Durham Community",
-            "properties": {},
+            "properties": { "id": "North Durham Community" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -9537,8 +9405,7 @@
         },
         {
             "type": "Feature",
-            "id": "North Carolina Central University",
-            "properties": {},
+            "properties": { "id": "North Carolina Central University" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -9625,8 +9492,7 @@
         },
         {
             "type": "Feature",
-            "id": "Northeast Hills",
-            "properties": {},
+            "properties": { "id": "Northeast Hills" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -9709,8 +9575,7 @@
         },
         {
             "type": "Feature",
-            "id": "Northgate Park",
-            "properties": {},
+            "properties": { "id": "Northgate Park" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -9833,8 +9698,7 @@
         },
         {
             "type": "Feature",
-            "id": "Oak Grove Community",
-            "properties": {},
+            "properties": { "id": "Oak Grove Community" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -9925,8 +9789,7 @@
         },
         {
             "type": "Feature",
-            "id": "Oakhaven",
-            "properties": {},
+            "properties": { "id": "Oakhaven" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -9973,8 +9836,7 @@
         },
         {
             "type": "Feature",
-            "id": "Oakhurst",
-            "properties": {},
+            "properties": { "id": "Oakhurst" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -10029,8 +9891,7 @@
         },
         {
             "type": "Feature",
-            "id": "Old East Durham",
-            "properties": {},
+            "properties": { "id": "Old East Durham" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -10101,8 +9962,7 @@
         },
         {
             "type": "Feature",
-            "id": "Old Farm",
-            "properties": {},
+            "properties": { "id": "Old Farm" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -10201,8 +10061,7 @@
         },
         {
             "type": "Feature",
-            "id": "Old Five Points",
-            "properties": {},
+            "properties": { "id": "Old Five Points" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -10241,8 +10100,7 @@
         },
         {
             "type": "Feature",
-            "id": "Old North Durham",
-            "properties": {},
+            "properties": { "id": "Old North Durham" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -10357,8 +10215,7 @@
         },
         {
             "type": "Feature",
-            "id": "Old West Durham",
-            "properties": {},
+            "properties": { "id": "Old West Durham" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -10453,8 +10310,7 @@
         },
         {
             "type": "Feature",
-            "id": "Omah Street",
-            "properties": {},
+            "properties": { "id": "Omah Street" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -10549,8 +10405,7 @@
         },
         {
             "type": "Feature",
-            "id": "Orchard Ridge",
-            "properties": {},
+            "properties": { "id": "Orchard Ridge" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -10593,8 +10448,7 @@
         },
         {
             "type": "Feature",
-            "id": "Orchid Court",
-            "properties": {},
+            "properties": { "id": "Orchid Court" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -10625,8 +10479,7 @@
         },
         {
             "type": "Feature",
-            "id": "Pagehurst",
-            "properties": {},
+            "properties": { "id": "Pagehurst" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -10673,8 +10526,7 @@
         },
         {
             "type": "Feature",
-            "id": "Parc at University",
-            "properties": {},
+            "properties": { "id": "Parc at University" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -10717,8 +10569,7 @@
         },
         {
             "type": "Feature",
-            "id": "Park Ridge",
-            "properties": {},
+            "properties": { "id": "Park Ridge" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -10761,8 +10612,7 @@
         },
         {
             "type": "Feature",
-            "id": "Parkside",
-            "properties": {},
+            "properties": { "id": "Parkside" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -10817,8 +10667,7 @@
         },
         {
             "type": "Feature",
-            "id": "Parkwood",
-            "properties": {},
+            "properties": { "id": "Parkwood" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -10989,8 +10838,7 @@
         },
         {
             "type": "Feature",
-            "id": "Penrith",
-            "properties": {},
+            "properties": { "id": "Penrith" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -11117,8 +10965,7 @@
         },
         {
             "type": "Feature",
-            "id": "Pine Valley",
-            "properties": {},
+            "properties": { "id": "Pine Valley" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -11217,8 +11064,7 @@
         },
         {
             "type": "Feature",
-            "id": "Placid Valley",
-            "properties": {},
+            "properties": { "id": "Placid Valley" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -11285,8 +11131,7 @@
         },
         {
             "type": "Feature",
-            "id": "Pleasant Drive",
-            "properties": {},
+            "properties": { "id": "Pleasant Drive" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -11385,8 +11230,7 @@
         },
         {
             "type": "Feature",
-            "id": "Preston Avenue",
-            "properties": {},
+            "properties": { "id": "Preston Avenue" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -11453,8 +11297,7 @@
         },
         {
             "type": "Feature",
-            "id": "Preston Woods",
-            "properties": {},
+            "properties": { "id": "Preston Woods" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -11501,8 +11344,7 @@
         },
         {
             "type": "Feature",
-            "id": "Providence Ridge",
-            "properties": {},
+            "properties": { "id": "Providence Ridge" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -11537,8 +11379,7 @@
         },
         {
             "type": "Feature",
-            "id": "Ravenstone",
-            "properties": {},
+            "properties": { "id": "Ravenstone" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -11605,8 +11446,7 @@
         },
         {
             "type": "Feature",
-            "id": "Ridgefield",
-            "properties": {},
+            "properties": { "id": "Ridgefield" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -11697,8 +11537,7 @@
         },
         {
             "type": "Feature",
-            "id": "Rigsbee Hill",
-            "properties": {},
+            "properties": { "id": "Rigsbee Hill" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -11729,8 +11568,7 @@
         },
         {
             "type": "Feature",
-            "id": "River Forest",
-            "properties": {},
+            "properties": { "id": "River Forest" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -11797,8 +11635,7 @@
         },
         {
             "type": "Feature",
-            "id": "River's Edge",
-            "properties": {},
+            "properties": { "id": "River's Edge" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -11837,8 +11674,7 @@
         },
         {
             "type": "Feature",
-            "id": "Rockwood",
-            "properties": {},
+            "properties": { "id": "Rockwood" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -11917,8 +11753,7 @@
         },
         {
             "type": "Feature",
-            "id": "Rougemont",
-            "properties": {},
+            "properties": { "id": "Rougemont" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -12025,8 +11860,7 @@
         },
         {
             "type": "Feature",
-            "id": "Rustica Oaks",
-            "properties": {},
+            "properties": { "id": "Rustica Oaks" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -12065,8 +11899,7 @@
         },
         {
             "type": "Feature",
-            "id": "Scarsdale Village",
-            "properties": {},
+            "properties": { "id": "Scarsdale Village" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -12201,8 +12034,7 @@
         },
         {
             "type": "Feature",
-            "id": "Sheridan Drive",
-            "properties": {},
+            "properties": { "id": "Sheridan Drive" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -12253,8 +12085,7 @@
         },
         {
             "type": "Feature",
-            "id": "Southampton",
-            "properties": {},
+            "properties": { "id": "Southampton" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -12297,8 +12128,7 @@
         },
         {
             "type": "Feature",
-            "id": "Southpoint Manor",
-            "properties": {},
+            "properties": { "id": "Southpoint Manor" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -12369,8 +12199,7 @@
         },
         {
             "type": "Feature",
-            "id": "Southside / St. Teresa",
-            "properties": {},
+            "properties": { "id": "Southside / St. Teresa" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -12449,8 +12278,7 @@
         },
         {
             "type": "Feature",
-            "id": "South Terrace at Auburn",
-            "properties": {},
+            "properties": { "id": "South Terrace at Auburn" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -12505,8 +12333,7 @@
         },
         {
             "type": "Feature",
-            "id": "Spring Valley",
-            "properties": {},
+            "properties": { "id": "Spring Valley" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -12569,8 +12396,7 @@
         },
         {
             "type": "Feature",
-            "id": "Solterra",
-            "properties": {},
+            "properties": { "id": "Solterra" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -12625,8 +12451,7 @@
         },
         {
             "type": "Feature",
-            "id": "Stadium Heights",
-            "properties": {},
+            "properties": { "id": "Stadium Heights" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -12721,8 +12546,7 @@
         },
         {
             "type": "Feature",
-            "id": "Stephen's Woods",
-            "properties": {},
+            "properties": { "id": "Stephen's Woods" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -12817,8 +12641,7 @@
         },
         {
             "type": "Feature",
-            "id": "Sterling Ridge",
-            "properties": {},
+            "properties": { "id": "Sterling Ridge" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -12853,8 +12676,7 @@
         },
         {
             "type": "Feature",
-            "id": "Stillwood",
-            "properties": {},
+            "properties": { "id": "Stillwood" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -12897,8 +12719,7 @@
         },
         {
             "type": "Feature",
-            "id": "Stirrup Creek",
-            "properties": {},
+            "properties": { "id": "Stirrup Creek" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -12953,8 +12774,7 @@
         },
         {
             "type": "Feature",
-            "id": "Stonehill Estates",
-            "properties": {},
+            "properties": { "id": "Stonehill Estates" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -13049,8 +12869,7 @@
         },
         {
             "type": "Feature",
-            "id": "Stratford Lakes",
-            "properties": {},
+            "properties": { "id": "Stratford Lakes" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -13101,8 +12920,7 @@
         },
         {
             "type": "Feature",
-            "id": "Summer Meadow",
-            "properties": {},
+            "properties": { "id": "Summer Meadow" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -13177,8 +12995,7 @@
         },
         {
             "type": "Feature",
-            "id": "Sunningdale",
-            "properties": {},
+            "properties": { "id": "Sunningdale" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -13225,8 +13042,7 @@
         },
         {
             "type": "Feature",
-            "id": "Surrey Green",
-            "properties": {},
+            "properties": { "id": "Surrey Green" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -13281,8 +13097,7 @@
         },
         {
             "type": "Feature",
-            "id": "Swallows Ridge",
-            "properties": {},
+            "properties": { "id": "Swallows Ridge" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -13321,8 +13136,7 @@
         },
         {
             "type": "Feature",
-            "id": "Swann's Mill",
-            "properties": {},
+            "properties": { "id": "Swann's Mill" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -13381,8 +13195,7 @@
         },
         {
             "type": "Feature",
-            "id": "Taylor Estates",
-            "properties": {},
+            "properties": { "id": "Taylor Estates" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -13429,8 +13242,7 @@
         },
         {
             "type": "Feature",
-            "id": "Thaxton",
-            "properties": {},
+            "properties": { "id": "Thaxton" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -13473,8 +13285,7 @@
         },
         {
             "type": "Feature",
-            "id": "The Hills at Southpoint",
-            "properties": {},
+            "properties": { "id": "The Hills at Southpoint" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -13553,8 +13364,7 @@
         },
         {
             "type": "Feature",
-            "id": "The Landing at Southpoint",
-            "properties": {},
+            "properties": { "id": "The Landing at Southpoint" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -13589,8 +13399,7 @@
         },
         {
             "type": "Feature",
-            "id": "Treyburn",
-            "properties": {},
+            "properties": { "id": "Treyburn" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -13805,8 +13614,7 @@
         },
         {
             "type": "Feature",
-            "id": "Trinity Commons",
-            "properties": {},
+            "properties": { "id": "Trinity Commons" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -13837,8 +13645,7 @@
         },
         {
             "type": "Feature",
-            "id": "Trinity Heights",
-            "properties": {},
+            "properties": { "id": "Trinity Heights" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -13869,8 +13676,7 @@
         },
         {
             "type": "Feature",
-            "id": "Trinity Park",
-            "properties": {},
+            "properties": { "id": "Trinity Park" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -13979,8 +13785,7 @@
         },
         {
             "type": "Feature",
-            "id": "Trotter Ridge",
-            "properties": {},
+            "properties": { "id": "Trotter Ridge" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -14047,8 +13852,7 @@
         },
         {
             "type": "Feature",
-            "id": "Tuscaloosa-Lakewood",
-            "properties": {},
+            "properties": { "id": "Tuscaloosa-Lakewood" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -14143,8 +13947,7 @@
         },
         {
             "type": "Feature",
-            "id": "Urban 900",
-            "properties": {},
+            "properties": { "id": "Urban 900" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -14175,8 +13978,7 @@
         },
         {
             "type": "Feature",
-            "id": "Valley Run",
-            "properties": {},
+            "properties": { "id": "Valley Run" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -14227,8 +14029,7 @@
         },
         {
             "type": "Feature",
-            "id": "Valleybrook",
-            "properties": {},
+            "properties": { "id": "Valleybrook" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -14303,8 +14104,7 @@
         },
         {
             "type": "Feature",
-            "id": "Vantage Pointe",
-            "properties": {},
+            "properties": { "id": "Vantage Pointe" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -14359,8 +14159,7 @@
         },
         {
             "type": "Feature",
-            "id": "Walden Pond",
-            "properties": {},
+            "properties": { "id": "Walden Pond" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -14403,8 +14202,7 @@
         },
         {
             "type": "Feature",
-            "id": "Walltown",
-            "properties": {},
+            "properties": { "id": "Walltown" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -14463,8 +14261,7 @@
         },
         {
             "type": "Feature",
-            "id": "Warehouse District",
-            "properties": {},
+            "properties": { "id": "Warehouse District" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -14531,8 +14328,7 @@
         },
         {
             "type": "Feature",
-            "id": "Waterford",
-            "properties": {},
+            "properties": { "id": "Waterford" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -14631,8 +14427,7 @@
         },
         {
             "type": "Feature",
-            "id": "Watts Hospital-Hillandale",
-            "properties": {},
+            "properties": { "id": "Watts Hospital-Hillandale" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -14751,8 +14546,7 @@
         },
         {
             "type": "Feature",
-            "id": "Welcome Circle",
-            "properties": {},
+            "properties": { "id": "Welcome Circle" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -14791,8 +14585,7 @@
         },
         {
             "type": "Feature",
-            "id": "Wellington Forest",
-            "properties": {},
+            "properties": { "id": "Wellington Forest" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -14839,8 +14632,7 @@
         },
         {
             "type": "Feature",
-            "id": "Wellons Village",
-            "properties": {},
+            "properties": { "id": "Wellons Village" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -14907,8 +14699,7 @@
         },
         {
             "type": "Feature",
-            "id": "West End",
-            "properties": {},
+            "properties": { "id": "West End" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -14983,8 +14774,7 @@
         },
         {
             "type": "Feature",
-            "id": "West Hills",
-            "properties": {},
+            "properties": { "id": "West Hills" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -15023,8 +14813,7 @@
         },
         {
             "type": "Feature",
-            "id": "West Murray / Broad",
-            "properties": {},
+            "properties": { "id": "West Murray / Broad" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -15059,8 +14848,7 @@
         },
         {
             "type": "Feature",
-            "id": "Westgate Townes",
-            "properties": {},
+            "properties": { "id": "Westgate Townes" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -15095,8 +14883,7 @@
         },
         {
             "type": "Feature",
-            "id": "Westwood Estates",
-            "properties": {},
+            "properties": { "id": "Westwood Estates" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -15147,8 +14934,7 @@
         },
         {
             "type": "Feature",
-            "id": "Whitney Park",
-            "properties": {},
+            "properties": { "id": "Whitney Park" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -15187,8 +14973,7 @@
         },
         {
             "type": "Feature",
-            "id": "Willow Hill",
-            "properties": {},
+            "properties": { "id": "Willow Hill" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -15271,8 +15056,7 @@
         },
         {
             "type": "Feature",
-            "id": "Willowhaven",
-            "properties": {},
+            "properties": { "id": "Willowhaven" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -15419,8 +15203,7 @@
         },
         {
             "type": "Feature",
-            "id": "Windsor Oaks",
-            "properties": {},
+            "properties": { "id": "Windsor Oaks" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -15467,8 +15250,7 @@
         },
         {
             "type": "Feature",
-            "id": "Woodcroft",
-            "properties": {},
+            "properties": { "id": "Woodcroft" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -15687,8 +15469,7 @@
         },
         {
             "type": "Feature",
-            "id": "Woodlake",
-            "properties": {},
+            "properties": { "id": "Woodlake" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -15783,8 +15564,7 @@
         },
         {
             "type": "Feature",
-            "id": "Woodstone at Croasdaile Farm",
-            "properties": {},
+            "properties": { "id": "Woodstone at Croasdaile Farm" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -15819,8 +15599,7 @@
         },
         {
             "type": "Feature",
-            "id": "Woodwinds",
-            "properties": {},
+            "properties": { "id": "Woodwinds" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -15859,8 +15638,7 @@
         },
         {
             "type": "Feature",
-            "id": "Wynstead",
-            "properties": {},
+            "properties": { "id": "Wynstead" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -15895,8 +15673,7 @@
         },
         {
             "type": "Feature",
-            "id": "Wynterfield",
-            "properties": {},
+            "properties": { "id": "Wynterfield" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -15959,8 +15736,7 @@
         },
         {
             "type": "Feature",
-            "id": "Burch Avenue",
-            "properties": {},
+            "properties": { "id": "Burch Avenue" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -16045,8 +15821,7 @@
         },
         {
             "type": "Feature",
-            "id": "Franklin Village",
-            "properties": {},
+            "properties": { "id": "Franklin Village" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -16081,8 +15856,7 @@
         },
         {
             "type": "Feature",
-            "id": "Mary Dell",
-            "properties": {},
+            "properties": { "id": "Mary Dell" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -16125,8 +15899,7 @@
         },
         {
             "type": "Feature",
-            "id": "Autumn Ridge",
-            "properties": {},
+            "properties": { "id": "Autumn Ridge" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -16217,8 +15990,7 @@
         },
         {
             "type": "Feature",
-            "id": "Wellington Forest",
-            "properties": {},
+            "properties": { "id": "Wellington Forest" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -16273,8 +16045,7 @@
         },
         {
             "type": "Feature",
-            "id": "Brightwood Trails",
-            "properties": {},
+            "properties": { "id": "Brightwood Trails" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -16337,8 +16108,7 @@
         },
         {
             "type": "Feature",
-            "id": "Carolina Arbors",
-            "properties": {},
+            "properties": { "id": "Carolina Arbors" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -16421,8 +16191,7 @@
         },
         {
             "type": "Feature",
-            "id": "Townes at Brier Creek Crossing",
-            "properties": {},
+            "properties": { "id": "Townes at Brier Creek Crossing" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [

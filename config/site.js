@@ -63,19 +63,30 @@ let siteConfig = {
     }
   ],
   geographies: [
-      {
-        id: 'tract',
-        label: 'Census Tracts',
+    {
+      id: 'tract',
+      name: 'Census Tracts',
+      label: function(id) {
+        let decimalPart = Number(id.substring(id.length-2));
+        return "Tract " + Number(id.substring(id.length-6, id.length-2)) + (decimalPart ? "." + decimalPart : '');
       },
-      {
-        id: 'blockgroup',
-        label: 'Census Blockgroups',
+    },
+    {
+      id: 'blockgroup',
+      name: 'Census Blockgroups',
+      label: function(id) {
+        let decimalPart = Number(id.substring(id.length-3, id.length-1));
+        return "Tract " + Number(id.substring(id.length-7, id.length-3)) + (decimalPart ? "." + decimalPart : '') + ", Block Group " + Number(id.substring(id.length-1));
       },
-      {
-        id: 'neighborhood',
-        label: 'Census Neighborhoods',
+    },
+    {
+      id: 'neighborhood',
+      name: 'Census Neighborhoods',
+      label: function(id) {
+        return id;
       },
-  ],
+    },
+  ]
 };
 
 module.exports = siteConfig;
