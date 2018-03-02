@@ -26,43 +26,19 @@
 //
 
 let siteConfig = {
-  neighborhoodDescriptor: 'NPA',
-  neighborhoodDefinition:
-    'Neighborhood Profile Areas (NPAs) are geographic areas used for the organization and presentation of data in the Quality of Life Study. The boundaries were developed with community input and are based on one or more Census block groups.',
-  gaKey: 'UA-48797957-1',
+  gaKey: '',
   keywords:
-    'GIS,Mecklenburg County,parks,libraries,schools,environment,impervious surface,floodplain,zoning,assessment,tax,photos,government',
-  author: 'Tobin Bradley',
-  title: 'Quality of Life Explorer',
-  jurisdiction: 'Charlotte/Mecklenburg',
+    'GIS,Durham County,parks,libraries,schools,environment,impervious surface,floodplain,zoning,assessment,tax,photos,government',
+  author: 'John Killeen and Tim Stallmann at DataWorks NC',
+  title: 'Neighborhood Compass',
+  jurisdiction: 'Durham',
   description:
     'Exploring neighborhood character, economics, education, engagement, environment, health, housing, safety and transportation.',
-  qolembedURL: 'https://mcmap.org/qol-embed/',
-  qolreportURL: 'https://mcmap.org/qol-report/',
-  qoldashboardURL: 'https://mcmap.org/qol/',
-  contactForm: 'https://mcmap.org/utilities/feedback.php',
-  contacts: 'tobin.bradley@gmail.com,qualityoflife@charlottenc.gov',
+  qolreportURL: '/report.html',
+  qoldashboardURL: 'https://compass.durhamnc.gov/',
+  contactForm: '-',
+  contacts: 'john@dataworksnc.org',
   whatsnew: [
-    '67',
-    '71',
-    '82',
-    '7',
-    '6',
-    '42',
-    '53',
-    '83',
-    '30',
-    '5',
-    '73',
-    '9',
-    '8',
-    '19',
-    '41',
-    '11',
-    '4',
-    '35',
-    '64',
-    '63'
   ],
   links: [
     {
@@ -81,7 +57,43 @@ let siteConfig = {
       href: 'http://clt.charlotte.opendata.arcgis.com/',
       text: 'City of Charlotte Open Data Portal'
     }
-  ]
+  ],
+  geographies: [
+    {
+      id: 'tract',
+      name: 'Census Tracts',
+      label: function(id) {
+        let decimalPart = Number(id.substring(id.length-2));
+        return "Tract " + Number(id.substring(id.length-6, id.length-2)) + (decimalPart ? "." + decimalPart : '');
+      },
+      description: 'Description of tracts',
+    },
+    {
+      id: 'blockgroup',
+      name: 'Census Blockgroups',
+      label: function(id) {
+        let decimalPart = Number(id.substring(id.length-3, id.length-1));
+        return "Tract " + Number(id.substring(id.length-7, id.length-3)) + (decimalPart ? "." + decimalPart : '') + ", Block Group " + Number(id.substring(id.length-1));
+      },
+      description: 'Description of Blockgroups',
+    },
+    {
+      id: 'neighborhood',
+      name: 'Neighborhoods',
+      label: function(id) {
+        return id;
+      },
+      description: 'Description of Neighborhoods',
+    },
+  ],
+
+  // Report config.
+  summaryMetrics: [
+      'mPOP',
+      'mBIKEWK',
+      'mMEDINC',
+      'mV_SQM',
+  ],
 };
 
 module.exports = siteConfig;

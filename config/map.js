@@ -25,12 +25,12 @@
 
 
 let mapConfig = {
-    style: "./style/positron-mecklenburg.json",
+    style: "http://osm-liberty.lukasmartinelli.ch/style.json",
     zoomEmbed: 9.5,
     zoom: 9.3,
-    centerEmbed: [-80.815,35.31],
-    center: [-80.84, 35.26],
-    maxBounds: [[-82.641, 34.115],[-79.008, 36.762]],
+    centerEmbed: [-78.907222,35.988611],
+    center: [-78.907222, 35.988611],
+    maxBounds: [[-80, 35],[-77, 37]],
     minZoom: 8,
     preserveDrawingBuffer: navigator.userAgent.toLowerCase().indexOf('firefox') > -1,  // fix for Firefox print
     neighborhoodsSelectedBefore: 'water_label',
