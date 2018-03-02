@@ -25,7 +25,7 @@
 
 
 let mapConfig = {
-    style: "./style/osm-liberty.json",
+    style: "http://osm-liberty.lukasmartinelli.ch/style.json",
     zoomEmbed: 9.5,
     zoom: 9.3,
     centerEmbed: [-78.907222,35.988611],

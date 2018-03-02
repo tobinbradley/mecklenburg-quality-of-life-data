@@ -433,7 +433,7 @@ let dataConfig = {
       "blockgroup"
     ]
   },
-  "mPT65Up": {
+  "mPT65UP": {
     "metric": "PT65UP",
     "category": "Demographics",
     "title": "Retirement-Age Population",

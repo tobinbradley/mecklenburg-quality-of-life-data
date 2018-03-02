@@ -40,3 +40,5 @@ yarn.lock
 # scripts
 *.sh
 
+config/private.js
+

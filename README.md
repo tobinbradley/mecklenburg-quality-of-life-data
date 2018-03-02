@@ -1,19 +1,19 @@
-# mecklenburg-quality-of-life-data
+# durham-quality-of-life-data
 
-Mecklenburg County data for the Quality of Life Dashboard.
+Durham County data for the Quality of Life Dashboard. Fork of Tobin Bradley's Mekclenburg QoL data repo. If you're customizing this for your own purposes, start with his base code at https://github.com/tobinbradley/mecklenburg-quality-of-life-data.
 
 ## Related Projects
 
-*   [quality-of-life-dashboard](https://github.com/tobinbradley/quality-of-life-dashboard)
-*   [quality-of-life-report](https://github.com/tobinbradley/quality-of-life-report)
-*   [quality-of-life-embed](https://github.com/tobinbradley/quality-of-life-embed)
+*   [quality-of-life-dashboard](https://github.com/DataWorks-NC/quality-of-life-dashboard)
+*   [quality-of-life-report](https://github.com/DataWorks-NC/quality-of-life-report)
+*   [quality-of-life-embed](https://github.com/DataWorks-NC/quality-of-life-embed)
 
 ## Get Started
 
-This project requires [NodeJS](http://nodejs.org/).
+This project requires [NodeJS](http://nodejs.org/). In the root quality-of-life dashboard/report/embed directory, run:
 
 ``` bash
-git clone https://github.com/tobinbradley/mecklenburg-quality-of-life-data.git data
+git clone https://github.com/DataWorks-NC/durham-quality-of-life-data.git data
 cd data
 npm install
 ```
@@ -40,6 +40,7 @@ The first thing you'll need is your geography, in GeoJSON. Your geography:
 *   Must be named `geography.geojson.json` and placed in the root folder.
 *   Must be WGS84 (EPSG:4326).
 *   Must contain an `id` property that's a string and a unique identifier for each polygon that you'll use for your data files.
+*   `id` must be in the `properties` object on each feature, not a standalone attribute of the feature.
 
 For serving and rendering GeoJSON, smaller is better, but watch out for topologically unaware simplification tools, as they'll leave ugly slivers in your data. You could use `v.generalize` in [QGIS](http://qgis.org/en/site/) (or [GRASS](http://grass.osgeo.org/) directly), or you could go the shapefile->[topojson](http://grass.osgeo.org/)->geojson route.
 
@@ -62,6 +63,8 @@ The type of data will decide the files required:
 *   `weighted`: A weighted average is calculated when polygons are selected. This requires the raw data in `r<metric>.csv` and a denominator for weighting/calculations in `d<metric>.csv`. r/d is each individual polygon value.
 
 After creating your data files, run the test suite to make sure the basics check out.
+
+**Note** Tests have not been updated to work with the Durham data.
 
 ``` bash
 npm run test --silent
