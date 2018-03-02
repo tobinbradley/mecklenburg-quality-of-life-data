@@ -34,8 +34,7 @@ let siteConfig = {
   jurisdiction: 'Durham',
   description:
     'Exploring neighborhood character, economics, education, engagement, environment, health, housing, safety and transportation.',
-  qolembedURL: 'https://compass.durhamnc.gov/qol-embed/',
-  qolreportURL: 'https://compass.durhamnc.gov/qol-report/',
+  qolreportURL: '/report.html',
   qoldashboardURL: 'https://compass.durhamnc.gov/',
   contactForm: '-',
   contacts: 'john@dataworksnc.org',
