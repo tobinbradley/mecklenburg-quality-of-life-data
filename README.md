@@ -30,6 +30,7 @@ There are several parts to configuring this repo:
 *   Creating your data files (CSV)
 *   Creating your metadata (Markdown)
 *   Updating configuration files
+*   Creating private configuration file
 
 The existing files are a good guidepost for creating your own, so dig in before you get started.
 
@@ -104,6 +105,21 @@ Each file contains definitions and instructions. For features that you don't wan
 The `/config/legacy` folder is for an earlier version of the project.
 
 In particular, you will also want to change the Mapbox GL JS `/gl-style/style.json` pointer in `map.js` to your own tiles, Mapbox tiles, OSM2VectorTiles tiles, or what have you. The tiles we use don't cover much of the planet beyond our needs. The excellent [OSM-Liberty](https://github.com/lukasmartinelli/osm-liberty) is provided as a drop-in replacement.
+
+
+### Creating private configuration file
+
+The file `private.js` stores your mapbox GL access token. It is not checked into version control. Although be aware that this access token will be accessible to users via the javascript debug console. 
+
+The first time you check out the repo, create a file `config/private.js`, with the following syntax:
+
+```
+let privateConfig = {
+  mapboxAccessToken: 'YOUR-ACCESS-TOKEN',
+};
+
+module.exports = privateConfig;
+```
 
 ### Tips and Gotchas
 
