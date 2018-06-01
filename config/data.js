@@ -70,7 +70,8 @@ let dataConfig = {
     suffix: '%',
     title: 'Race/Ethnicity - All Other Races',
     decimals: 1,
-    type: 'weighted'
+    type: 'weighted',
+    accuracy: 'true'
   },
   m16: {
     metric: '16',
@@ -78,7 +79,8 @@ let dataConfig = {
     suffix: '%',
     title: 'Race/Ethnicity - Asian',
     decimals: 1,
-    type: 'weighted'
+    type: 'weighted',
+    accuracy: 'true'
   },
   m15: {
     metric: '15',
@@ -86,7 +88,8 @@ let dataConfig = {
     suffix: '%',
     title: 'Race/Ethnicity - Black or African American',
     decimals: 1,
-    type: 'weighted'
+    type: 'weighted',
+    accuracy: 'true'
   },
   m18: {
     metric: '18',
@@ -94,7 +97,8 @@ let dataConfig = {
     suffix: '%',
     title: 'Race/Ethnicity - Hispanic or Latino',
     decimals: 1,
-    type: 'weighted'
+    type: 'weighted',
+    accuracy: 'true'
   },
   m14: {
     metric: '14',
@@ -102,7 +106,8 @@ let dataConfig = {
     suffix: '%',
     title: 'Race/Ethnicity - White or Caucasian',
     decimals: 1,
-    type: 'weighted'
+    type: 'weighted',
+    accuracy: 'true'
   },
   m11: {
     metric: '11',
