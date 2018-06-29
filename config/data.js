@@ -165,7 +165,7 @@ let dataConfig = {
     title: 'Household Income',
     type: 'weighted',
     world_val: {
-      y_2015: 56854
+      y_2016: 59268
     }
   },
   m75: {
@@ -544,7 +544,7 @@ let dataConfig = {
     title: 'Rental Costs',
     type: 'weighted',
     world_val: {
-      y_2015: 938
+      y_2016: 977.00
     }
   },
   m53: {
