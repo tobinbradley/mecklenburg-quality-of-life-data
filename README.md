@@ -4,15 +4,15 @@ Mecklenburg County data for the Quality of Life Dashboard.
 
 ## Related Projects
 
-*   [quality-of-life-dashboard](https://github.com/tobinbradley/quality-of-life-dashboard)
-*   [quality-of-life-report](https://github.com/tobinbradley/quality-of-life-report)
-*   [quality-of-life-embed](https://github.com/tobinbradley/quality-of-life-embed)
+- [quality-of-life-dashboard](https://github.com/tobinbradley/quality-of-life-dashboard)
+- [quality-of-life-report](https://github.com/tobinbradley/quality-of-life-report)
+- [quality-of-life-embed](https://github.com/tobinbradley/quality-of-life-embed)
 
 ## Get Started
 
 This project requires [NodeJS](http://nodejs.org/).
 
-``` bash
+```bash
 git clone https://github.com/tobinbradley/mecklenburg-quality-of-life-data.git data
 cd data
 npm install
@@ -26,10 +26,10 @@ It isn't meant as a stand-alone repository, but rather to be used with the other
 
 There are several parts to configuring this repo:
 
-*   Creating your geography (GeoJSON)
-*   Creating your data files (CSV)
-*   Creating your metadata (Markdown)
-*   Updating configuration files
+- Creating your geography (GeoJSON)
+- Creating your data files (CSV)
+- Creating your metadata (Markdown)
+- Updating configuration files
 
 The existing files are a good guidepost for creating your own, so dig in before you get started.
 
@@ -37,9 +37,9 @@ The existing files are a good guidepost for creating your own, so dig in before 
 
 The first thing you'll need is your geography, in GeoJSON. Your geography:
 
-*   Must be named `geography.geojson.json` and placed in the root folder.
-*   Must be WGS84 (EPSG:4326).
-*   Must contain an `id` property that's a string and a unique identifier for each polygon that you'll use for your data files.
+- Must be named `geography.geojson.json` and placed in the root folder.
+- Must be WGS84 (EPSG:4326).
+- Must contain an `id` property that's a string and a unique identifier for each polygon that you'll use for your data files.
 
 For serving and rendering GeoJSON, smaller is better, but watch out for topologically unaware simplification tools, as they'll leave ugly slivers in your data. You could use `v.generalize` in [QGIS](http://qgis.org/en/site/) (or [GRASS](http://grass.osgeo.org/) directly), or you could go the shapefile->[topojson](http://grass.osgeo.org/)->geojson route.
 
@@ -47,7 +47,7 @@ For serving and rendering GeoJSON, smaller is better, but watch out for topologi
 
 Data files are simple CSV's in the format:
 
-``` csv
+```csv
 id,y_2000,y_2010
 jim,23,432
 suzy,,100
@@ -57,31 +57,35 @@ The file header is `id` and each year of data is expressed as `y_<year>`. No dat
 
 The type of data will decide the files required:
 
-*   `sum`: The data is summed when polygons are selected. This will require a `r<metric>.csv` file.
-*   `mean`: The data is averaged when polygons are selected. This will require a `n<metric>.csv` file.
-*   `weighted`: A weighted average is calculated when polygons are selected. This requires the raw data in `r<metric>.csv` and a denominator for weighting/calculations in `d<metric>.csv`. r/d is each individual polygon value.
+- `sum`: The data is summed when polygons are selected. This will require a `r<metric>.csv` file.
+- `mean`: The data is averaged when polygons are selected. This will require a `n<metric>.csv` file.
+- `weighted`: A weighted average is calculated when polygons are selected. This requires the raw data in `r<metric>.csv` and a denominator for weighting/calculations in `d<metric>.csv`. r/d is each individual polygon value.
 
 After creating your data files, run the test suite to make sure the basics check out.
 
-``` bash
+```bash
 npm run test --silent
 ```
 
 ### Creating your metadata
 
-Metadata files in markdown format are located in `/meta`. Each metadata file is named in format `m<metric number>.md` with heading tags *exactly* like this:
+Metadata files in markdown format are located in `/meta`. Each metadata file is named in format `m<metric number>.md` with heading tags _exactly_ like this:
 
-``` markdown
+```markdown
 ## Title of Metric
+
 Median age of poodles
 
 ### Whis is this important?
+
 Because we like poodles.
 
 ### About the Data
+
 I hang out at dog parks and type stuff in my phone. Circa 1986.
 
 ### Additional Resources
+
 Dog pound yo.
 ```
 
@@ -91,12 +95,12 @@ The markdown is processed to HTML by the consuming projects, and as there's a lo
 
 There are four configuration files in `/config`:
 
-*   `data.js`: Configuration information for your metrics.
-*   `map.js`: Configuration information for your maps.
-*   `selectgroups.js`: Groups of your geography units that you want to make selectable as a group.
-*   `site.js`: Configuration for the site, like titles etc.
+- `data.json`: Configuration information for your metrics.
+- `map.json`: Configuration information for your maps.
+- `selectgroups.json`: Groups of your geography units that you want to make selectable as a group.
+- `site.json`: Configuration for the site, like titles etc.
 
-Each file contains definitions and instructions. For features that you don't want, like selectable groups, set the value to null.
+Check the `README.md` in the config folder for configuration options.
 
 The `/config/legacy` folder is for an earlier version of the project.
 
