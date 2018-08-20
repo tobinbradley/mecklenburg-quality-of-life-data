@@ -76,7 +76,7 @@ Metadata files in markdown format are located in `/meta`. Each metadata file is 
 
 Median age of poodles
 
-### Whis is this important?
+### Why is this important?
 
 Because we like poodles.
 
@@ -104,7 +104,7 @@ Check the `README.md` in the config folder for configuration options.
 
 The `/config/legacy` folder is for an earlier version of the project.
 
-In particular, you will also want to change the Mapbox GL JS `/gl-style/style.json` pointer in `map.js` to your own tiles, Mapbox tiles, OSM2VectorTiles tiles, or what have you. The tiles we use don't cover much of the planet beyond our needs. The excellent [OSM-Liberty](https://github.com/lukasmartinelli/osm-liberty) is provided as a drop-in replacement.
+In particular, you will also want to change the Mapbox GL JS `/gl-style/style.json` pointer in `main.js` to your own tiles, Mapbox tiles, OSM2VectorTiles tiles, or what have you. The tiles we use don't cover much of the planet beyond our needs. The excellent [OSM-Liberty](https://github.com/lukasmartinelli/osm-liberty) is provided as a drop-in replacement.
 
 ### Tips and Gotchas
 
@@ -124,6 +124,6 @@ Some identifiers like Census tracts can have a hanging zero, like 541.10. If you
 
 Because we're using those as choppers for layout, adding more of those will screw up your formatting.
 
-#### Beware weird, non-web safe characters characters in Markdown
+#### Beware weird, non-web safe characters in Markdown
 
 Don't edit Markdown in Word. You're welcome.
