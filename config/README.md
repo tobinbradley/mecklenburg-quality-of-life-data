@@ -29,7 +29,9 @@
     // override total geography value for particular years (optional)
     "world_val": {
       "y_2015": 35
-    }
+    },
+    // longer metric description
+    "subtitle": "How old the people are"
   }
 }
 ```
