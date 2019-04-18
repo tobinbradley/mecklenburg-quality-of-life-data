@@ -214,7 +214,14 @@
     "suffix": "%",
     "title": "High School Graduation Rate",
     "type": "weighted",
-    "subtitle": "Percentage of Charlotte-Mecklenburg Schools (CMS) students graduating high school in 4 years"
+    "subtitle": "Percentage of Charlotte-Mecklenburg Schools (CMS) students graduating high school in 4 years",
+    "world_val": {
+      "y_2014": "86.00",
+      "y_2013": "81.00",
+      "y_2017": "89.00",
+      "y_2015": "89.00",
+      "y_2016": "90.00"
+    }
   },
   "m51": {
     "metric": "51",
