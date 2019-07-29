@@ -17,7 +17,7 @@
     "node": ">=9.3.0"
   },
   "scripts": {
-    "test": "tape -r esm ./test/index.js | tap-spec --silent",
+    "test": "tape -r esm ./test/index.js | tap-spec",
     "lower-case-csv": "for f in metric/*.csv; do sed -i -e 's/\\(.*\\)/\\L\\1/' $f ; done",
     "sort-csv": "for f in metric/*.csv; do sort -n -o $f $f ; done",
     "clean-csv": "export LC_NUMERIC=C && npm run lower-case-csv && npm run sort-csv"
