@@ -74,6 +74,13 @@ function checkCSV(file, geojson) {
         t.plan(1)
         t.true(keys.join() === keys.join().toLowerCase(), 'keys are lower case')
       })
+      // make sure header row is in order
+      test(`keys in year order check for ${file}`, function(t) {
+        t.plan(1)
+        t.true(arraysEqual(keys, keys.sort((a, b) =>
+          a.localeCompare(b, 'en-US', { numeric: true, ignorePunctuation: true })
+        ) ), 'keys are in order')
+      })
     })
 }
 
@@ -97,6 +104,7 @@ data.forEach(m => {
     })
   }
 
+  // run in-depth csv checks
   checkCSV(`metric/r${key}.csv`, m.geojson || options.defaultgeojson)
 
 })
