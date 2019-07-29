@@ -43,7 +43,7 @@ npm run test --silent
 
 ## Using this repo with your own data
 
-![data design](https://i.imgur.com/pRdRkFG.png)
+![data design](data.svg)
 
 This repo is designed to be used with the [Quality of Life Dashboard](https://github.com/tobinbradley/quality-of-life-dashboard). The idea is you could drop in a data repo from any area or organization and it would "Just Work".
 
