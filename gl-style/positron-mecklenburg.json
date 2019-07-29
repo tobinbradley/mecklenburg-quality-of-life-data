@@ -32,7 +32,10 @@
       "id": "background",
       "type": "background",
       "paint": {
-        "background-color": "rgb(242,243,240)"
+        "background-color": "#ececec"
+      },
+      "layout": {
+        "visibility": "visible"
       }
     },
     {
