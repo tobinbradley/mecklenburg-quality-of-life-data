@@ -7,7 +7,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tobinbradley/mecklenburg-quality-of-life-data.git"
-  }, 
+  },
   "bugs": {
     "url": "https://github.com/tobinbradley/mecklenburg-quality-of-life-data/issues"
   },
@@ -17,15 +17,17 @@
     "node": ">=9.3.0"
   },
   "scripts": {
-    "test": "tape ./test/*.js | tap-spec",
+    "test": "tape -r esm ./test/index.js | tap-spec --silent",
     "lower-case-csv": "for f in metric/*.csv; do sed -i -e 's/\\(.*\\)/\\L\\1/' $f ; done",
     "sort-csv": "for f in metric/*.csv; do sort -n -o $f $f ; done",
     "clean-csv": "export LC_NUMERIC=C && npm run lower-case-csv && npm run sort-csv"
-  },  
+  },
   "devDependencies": {
-    "fast-csv": "^2.2.0",
-    "lodash": "^4.17.15",
-    "tap-spec": "^4.1.2",
-    "tape": "^4.9.1"
+    "fast-csv": "^3.3.0",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.11.0"
+  },
+  "dependencies": {
+    "esm": "^3.2.25"
   }
 }
