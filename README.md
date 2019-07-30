@@ -231,7 +231,12 @@ This object contains configuration options for the map, GeoJSON files, and other
             return data
           }
         }
-      ]
+      ],
+      // REQUIRED
+      // Array of objects describing additional URL calls for the search
+      // that are specific to the geojson.  
+      // Leave an empty array if none needed.
+      searchPaths: []
     }    
   ],
   // REQUIRED

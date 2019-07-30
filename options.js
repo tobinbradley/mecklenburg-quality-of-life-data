@@ -110,6 +110,68 @@ export default {
           name: 'Commision District 6',
           ids: 'groups/npa-county-commission-6.json'
         }
+      ],
+      searchPaths: [
+        {
+          name: 'NSA',
+          url:
+            'https://mcmap.org/api2/v1/intersect_feature/neighborhood_statistical_areas/neighborhoods?geom_column_from=the_geom&geom_column_to=the_geom&columns=neighborhood_statistical_areas.nsa_name%20as%20label%2C%20neighborhoods.id&filter=nsa_name%20ilike%20',
+          searchVal: function(val) {
+            return encodeURIComponent(`'${val.trim()}%'`)
+          },
+          format: function(data) {
+            const formatted = []
+            const labels = [
+              ...new Set(
+                data.map(el => {
+                  return el.label
+                })
+              )
+            ]
+
+            labels.forEach(label => {
+              formatted.push({ label: label, id: [] })
+            })
+
+            data.forEach(el => {
+              formatted
+                .filter(lab => el.label === lab.label)[0]
+                .id.push(el.id.toString())
+            })
+
+            return formatted
+          }
+        },
+        {
+          name: 'zipcode',
+          url:
+            "http://mcmap.org/api2/v1/intersect_feature/zipcodes/neighborhoods?geom_column_from=the_geom&geom_column_to=the_geom&columns='ZIPCODE%20'%20%7C%7C%20zip%20as%20label%2C%20neighborhoods.id&filter=zip%3D",
+          searchVal: function(val) {
+            return encodeURIComponent(`'${val.trim()}'`)
+          },
+          format: function(data) {
+            const formatted = []
+            const labels = [
+              ...new Set(
+                data.map(el => {
+                  return el.label
+                })
+              )
+            ]
+
+            labels.forEach(label => {
+              formatted.push({ label: label, id: [] })
+            })
+
+            data.forEach(el => {
+              formatted
+                .filter(lab => el.label === lab.label)[0]
+                .id.push(el.id.toString())
+            })
+
+            return formatted
+          }
+        }
       ]
     }
   ],
@@ -125,66 +187,6 @@ export default {
             .toUpperCase()
             .replace(/ /g, '&') + ":*')"
         )
-      }
-    },
-    {
-      name: 'NSA',
-      url:
-        'https://mcmap.org/api2/v1/intersect_feature/neighborhood_statistical_areas/neighborhoods?geom_column_from=the_geom&geom_column_to=the_geom&columns=neighborhood_statistical_areas.nsa_name%20as%20label%2C%20neighborhoods.id&filter=nsa_name%20ilike%20',
-      searchVal: function(val) {
-        return encodeURIComponent(`'${val.trim()}%'`)
-      },
-      format: function(data) {
-        const formatted = []
-        const labels = [
-          ...new Set(
-            data.map(el => {
-              return el.label
-            })
-          )
-        ]
-
-        labels.forEach(label => {
-          formatted.push({ label: label, id: [] })
-        })
-
-        data.forEach(el => {
-          formatted
-            .filter(lab => el.label === lab.label)[0]
-            .id.push(el.id.toString())
-        })
-
-        return formatted
-      }
-    },
-    {
-      name: 'zipcode',
-      url:
-        "http://mcmap.org/api2/v1/intersect_feature/zipcodes/neighborhoods?geom_column_from=the_geom&geom_column_to=the_geom&columns='ZIPCODE%20'%20%7C%7C%20zip%20as%20label%2C%20neighborhoods.id&filter=zip%3D",
-      searchVal: function(val) {
-        return encodeURIComponent(`'${val.trim()}'`)
-      },
-      format: function(data) {
-        const formatted = []
-        const labels = [
-          ...new Set(
-            data.map(el => {
-              return el.label
-            })
-          )
-        ]
-
-        labels.forEach(label => {
-          formatted.push({ label: label, id: [] })
-        })
-
-        data.forEach(el => {
-          formatted
-            .filter(lab => el.label === lab.label)[0]
-            .id.push(el.id.toString())
-        })
-
-        return formatted
       }
     }
   ],
