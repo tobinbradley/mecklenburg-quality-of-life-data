@@ -234,9 +234,9 @@ This object contains configuration options for the map, GeoJSON files, and other
       ]
     }    
   ],
-  // OPTIONAL
+  // REQUIRED
   // Array of objects describing additional URL calls for the search. 
-  // By default it only searches for matching polygon id's.
+  // Leave an empty array to only searches for matching polygon id's.
   searchPaths: [
     {
       // REQUIRED
@@ -288,6 +288,10 @@ This object contains configuration options for the map, GeoJSON files, and other
     YLGN6: ['#ffffcc', '#d9f0a3', '#addd8e', '#78c679', '#31a354', '#006837'],
     orange: [ '#feedde', '#fdd0a2', '#fdae6b', '#fd8d3c', '#f16913', '#d94801', '#8c2d04' ]
   },
+  // REQUIRED
+  // Array of arrays of metric id's to make the default that appear on a new page load
+  // If more than one array is given, one set will be chosen at random
+  defaultMetrics: [['27', '100', '2']],
   // OPTIONAL
   // Allows the ability to highlight recently added or updated metrics
   whatsnew: [ '28', '36', '45', '46', '47', '62' ]
