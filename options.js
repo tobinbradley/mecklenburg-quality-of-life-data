@@ -205,6 +205,7 @@ export default {
       '#8c2d04'
     ]
   },
+  defaultMetrics: [['27', '100', '2']],
   whatsnew: [
     '28',
     '36',
