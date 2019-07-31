@@ -10,7 +10,8 @@ export default {
         {
           name: 'Mecklenburg'
         }
-      ]
+      ],
+      searchPaths: []
     },
     {
       layer: 'npa.geojson.json',
