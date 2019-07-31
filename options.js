@@ -145,7 +145,7 @@ export default {
         {
           name: 'zipcode',
           url:
-            "http://mcmap.org/api2/v1/intersect_feature/zipcodes/neighborhoods?geom_column_from=the_geom&geom_column_to=the_geom&columns='ZIPCODE%20'%20%7C%7C%20zip%20as%20label%2C%20neighborhoods.id&filter=zip%3D",
+            "https://mcmap.org/api2/v1/intersect_feature/zipcodes/neighborhoods?geom_column_from=the_geom&geom_column_to=the_geom&columns='ZIPCODE%20'%20%7C%7C%20zip%20as%20label%2C%20neighborhoods.id&filter=zip%3D",
           searchVal: function(val) {
             return encodeURIComponent(`'${val.trim()}'`)
           },
