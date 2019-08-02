@@ -1,7 +1,7 @@
 module.exports = [
   {
     metric: '100',
-    tags: ['Character', 'pac man'],
+    tags: ['Character', 'Block Groups'],
     label: 'People',
     title: 'Population Projection',
     type: 'sum',
