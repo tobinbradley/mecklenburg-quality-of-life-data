@@ -23,7 +23,7 @@ export default {
           name: 'Mecklenburg'
         },
         {
-          name: 'Charlotte',
+          name: 'Charlotte (approximate)',
           ids: 'groups/npa-jurisdiction-charlotte.json',
           format: function(data) {
             return data
@@ -208,7 +208,7 @@ export default {
       '#8c2d04'
     ]
   },
-  defaultMetrics: [['27', '100', '2']],
+  defaultMetrics: [['27', '100', '47']],
   whatsnew: [
     '28',
     '36',
