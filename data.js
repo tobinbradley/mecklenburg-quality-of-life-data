@@ -5,7 +5,7 @@ module.exports = [
     label: 'People',
     title: 'Population Projection',
     type: 'sum',
-    geojson: 'tracts.geojson.json',
+    geojson: 'bg.geojson.json',
     colors: 'orange'
   },
   {

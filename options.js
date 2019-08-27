@@ -3,7 +3,7 @@ export default {
   defaultgeojson: 'npa.geojson.json',
   geojson: [
     {
-      layer: 'tracts.geojson.json',
+      layer: 'bg.geojson.json',
       name: 'Block Group',
       description: 'US Census block groups.',
       compareGroups: [
