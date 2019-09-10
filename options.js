@@ -191,9 +191,6 @@ export default {
       }
     }
   ],
-  style: 'positron-mecklenburg.json',
-  fillLayerBefore: 'building',
-  lineLayerBefore: 'place_other',
   colors: {
     default: ['#f0f9e8', '#bae4bc', '#7bccc4', '#43a2ca', '#0868ac'],
     RdPu6: ['#feebe2', '#fcc5c0', '#fa9fb5', '#f768a1', '#c51b8a', '#7a0177'],

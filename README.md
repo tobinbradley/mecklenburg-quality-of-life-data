@@ -270,16 +270,11 @@ This object contains configuration options for the map, GeoJSON files, and other
       }
     }    
   ],
-  // REQUIRED
-  // The MapBox GL style to be used with the base tiles.
-  // Positron-Mecklenburg is based on openmaptiles positron-gl-style
-  // https://github.com/openmaptiles/positron-gl-style
-  style: 'positron-mecklenburg.json',
-  // REQUIRED
-  // The name of the GL style layer to insert the polygons before
+  // OPTIONAL
+  // The name of the GL style layer to insert the polygons before if needed
   fillLayerBefore: 'building',
-  // REQUIRED
-  // The name of the GL style layer to insert the polygon boundaries before
+  // OPTIONAL
+  // The name of the GL style layer to insert the polygon boundaries before if needed
   lineLayerBefore: 'place_other',
   // REQUIRED
   // List of color schemes to use
