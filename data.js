@@ -16,7 +16,7 @@ module.exports = [
     title: 'Age of Residents',
     type: 'weighted',
     world_val: {
-      y_2015: 35
+      y_2017: 35
     },
     subtitle: 'Median age of residents'
   },
@@ -177,7 +177,7 @@ module.exports = [
     title: 'Household Income',
     type: 'weighted',
     world_val: {
-      y_2016: 59268
+      y_2017: 61695
     },
     subtitle: 'Median household income'
   },
@@ -389,7 +389,10 @@ module.exports = [
     title: 'Commuters Driving Alone',
     raw_label: '',
     type: 'weighted',
-    subtitle: 'Percentage of workers who commute by driving alone'
+    subtitle: 'Percentage of workers who commute by driving alone',
+    world_val: {
+      y_2017: 83
+    }
   },
   {
     metric: '26',
@@ -783,7 +786,10 @@ module.exports = [
     title: 'Long Commute',
     type: 'weighted',
     subtitle:
-      'Percentage of auto commuters traveling 20 minutes or more to work'
+      'Percentage of auto commuters traveling 20 minutes or more to work',
+    world_val: {
+      y_2017: 59
+    }
   },
   {
     metric: '36',
