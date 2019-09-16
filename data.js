@@ -239,11 +239,11 @@ module.exports = [
     subtitle:
       'Percentage of Charlotte-Mecklenburg Schools (CMS) students graduating high school in 4 years',
     world_val: {
-      y_2014: '86.00',
-      y_2013: '81.00',
-      y_2017: '89.00',
-      y_2015: '89.00',
-      y_2016: '90.00'
+      y_2014: 86,
+      y_2013: 81,
+      y_2017: 89,
+      y_2015: 89,
+      y_2016: 90
     }
   },
   {
