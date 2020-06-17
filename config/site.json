@@ -12,7 +12,35 @@
   "qoldashboardURL": "https://mcmap.org/qol/",
   "contactForm": "https://mcmap.org/utilities/feedback.php",
   "contacts": "tobin.bradley@gmail.com,qualityoflife@charlottenc.gov",
-  "whatsnew": ["28", "36", "45", "46", "47", "62", "63", "64", "65", "66", "67", "74", "79", "80"],
+  "whatsnew": [
+    "10",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "2",
+    "20",
+    "27",
+    "29",
+    "31",
+    "33",
+    "34",
+    "37",
+    "39",
+    "40",
+    "48",
+    "58",
+    "59",
+    "60",
+    "61",
+    "68",
+    "72",
+    "78",
+    "80"
+  ],
   "links": [{
       "href": "http://charlottenc.gov/HNS/CE/CommunityInfo/Pages/QOL.aspx",
       "text": "About"
@@ -26,7 +54,7 @@
       "text": "Mecklenburg County Open Mapping"
     },
     {
-      "href": "http://clt.charlotte.opendata.arcgis.com/",
+      "href": "https://data.charlottenc.gov/",
       "text": "City of Charlotte Open Data Portal"
     }
   ]
