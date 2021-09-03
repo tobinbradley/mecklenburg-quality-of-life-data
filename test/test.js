@@ -97,7 +97,12 @@ function checkFileContents(file) {
       });
 
       line.split(",").forEach((l, index) => {
-        if (l !== 'id') {
+        if (index === 0) {
+          test(`${file} col ${index} id header check`, t => {
+            t.true(l.replace(/^\uFEFF/gm, "").replace(/^\u00BB\u00BF/gm,"") === "id")
+          })
+        }
+        if (index > 0) {
           test(`${file} col ${index} y_ header check`, t => {
             t.true(l.substring(0,2) === "y_")
           })
