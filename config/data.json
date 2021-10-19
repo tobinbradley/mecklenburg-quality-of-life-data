@@ -53,7 +53,6 @@
     "title": "Race/Ethnicity - All Other Races",
     "decimals": 1,
     "type": "weighted",
-    "accuracy": "true",
     "subtitle": "Percentage of population self-identified as American Indian, Native Hawaiian, some other race, or two or more races"
   },
   "m16": {
@@ -63,7 +62,6 @@
     "title": "Race/Ethnicity - Asian",
     "decimals": 1,
     "type": "weighted",
-    "accuracy": "true",
     "subtitle": "Percentage of population self-identified as Asian"
   },
   "m15": {
@@ -73,7 +71,6 @@
     "title": "Race/Ethnicity - Black or African American",
     "decimals": 1,
     "type": "weighted",
-    "accuracy": "true",
     "subtitle": "Percentage of population self-identified as Black or African-American"
   },
   "m18": {
@@ -83,7 +80,6 @@
     "title": "Race/Ethnicity - Hispanic or Latino",
     "decimals": 1,
     "type": "weighted",
-    "accuracy": "true",
     "subtitle": "Percentage of population self-identified as Hispanic or Latino"
   },
   "m14": {
@@ -93,7 +89,6 @@
     "title": "Race/Ethnicity - White or Caucasian",
     "decimals": 1,
     "type": "weighted",
-    "accuracy": "true",
     "subtitle": "Percentage of population self-identified as White or Caucasian"
   },
   "m11": {
