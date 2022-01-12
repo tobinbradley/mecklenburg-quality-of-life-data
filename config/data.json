@@ -44,7 +44,10 @@
     "raw_label": "People",
     "title": "Population Density",
     "type": "weighted",
-    "subtitle": "Concentration of residents"
+    "subtitle": "Concentration of residents",
+    "raw_val": {
+      "y_2020": 1115482
+    }
   },
   "m17": {
     "metric": "17",
